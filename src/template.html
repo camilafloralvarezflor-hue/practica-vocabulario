@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Práctica de inglés — 5to</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{
+  --bg:#f4f5f8; --surface:#ffffff; --surface-2:#eef0f5; --text:#16181d; --muted:#5b6170;
+  --border:#d5d9e2; --accent:#3b5bdb; --accent-text:#ffffff; --accent-soft:#e7ecff;
+  --ok:#1f8a4c; --ok-bg:#e3f6ea; --bad:#c92a2a; --bad-bg:#fde8e8;
+  --rev:#7048e8; --rev-bg:#efe9ff; --hint:#b25e00; --hint-bg:#fff1dc;
+  --vb:#0b7285; --vb-bg:#dff4f7; --pv:#a61e4d; --pv-bg:#fde7ef;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 4px 16px rgba(16,24,40,.06);
+  --box:42px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1115; --surface:#181b22; --surface-2:#222632; --text:#eceef3; --muted:#a3a9b8;
+    --border:#333949; --accent:#7c94ff; --accent-text:#0f1115; --accent-soft:#252c4a;
+    --ok:#51cf8a; --ok-bg:#15301f; --bad:#ff7b7b; --bad-bg:#3a1a1c;
+    --rev:#b197fc; --rev-bg:#2a2140; --hint:#ffc46b; --hint-bg:#3a2a12;
+    --vb:#66d9e8; --vb-bg:#12303a; --pv:#f783ac; --pv-bg:#3a1626;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+    --bg:#0f1115; --surface:#181b22; --surface-2:#222632; --text:#eceef3; --muted:#a3a9b8;
+    --border:#333949; --accent:#7c94ff; --accent-text:#0f1115; --accent-soft:#252c4a;
+    --ok:#51cf8a; --ok-bg:#15301f; --bad:#ff7b7b; --bad-bg:#3a1a1c;
+    --rev:#b197fc; --rev-bg:#2a2140; --hint:#ffc46b; --hint-bg:#3a2a12;
+    --vb:#66d9e8; --vb-bg:#12303a; --pv:#f783ac; --pv-bg:#3a1626;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-text-size-adjust:100%}
+button,select,input{font:inherit;color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding-block:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* ---------- barra de puntaje ---------- */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.stats{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.stats .wrap{display:flex;align-items:center;gap:8px;padding-top:10px;padding-bottom:10px}
+.stat-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;flex:1;min-width:0}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:6px 8px;text-align:center;min-width:0}
+.stat .lbl{display:block;font-size:11px;letter-spacing:.02em;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat .val{display:block;font-weight:700;font-size:17px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.stat .val small{font-weight:500;color:var(--muted);font-size:13px}
+.stat .short{display:none}
+
+h1{font-size:20px;margin:18px 0 4px}
+.sub{color:var(--muted);margin:0 0 14px;font-size:14px}
+
+/* ---------- filtros ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px 14px;margin-bottom:14px;box-shadow:var(--shadow)}
+.field{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted);min-width:0}
+.field select{min-width:0;max-width:100%;padding:8px 10px;border-radius:9px;border:1px solid var(--border);background:var(--surface-2);font-size:15px}
+.field.grow{flex:1 1 220px}
+.field.grow select{width:100%}
+.chk{display:flex;align-items:center;gap:8px;font-size:15px;color:var(--text);padding:8px 2px;cursor:pointer;user-select:none}
+.chk input{width:18px;height:18px;accent-color:var(--accent);margin:0}
+.topics{flex-basis:100%;border-top:1px solid var(--border);padding-top:8px;margin-top:2px}
+.topics>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:6px 0;font-size:15px;font-weight:600}
+.topics>summary::-webkit-details-marker{display:none}
+.topics>summary::before{content:"▸";color:var(--muted);transition:transform .15s;display:inline-block}
+.topics[open]>summary::before{transform:rotate(90deg)}
+.topics>summary .tsum{font-weight:500;color:var(--muted);font-size:14px}
+.tbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 4px}
+.tbar .note{font-size:13px;color:var(--muted)}
+.tgroup{margin-top:10px}
+.tgroup-h{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.tgroup-h h3{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.linkbtn{white-space:nowrap;border:0;background:none;color:var(--accent);font-size:13px;font-weight:600;cursor:pointer;padding:2px 4px;border-radius:6px}
+.linkbtn:focus-visible{outline:2px solid var(--accent)}
+.tchips{display:flex;flex-wrap:wrap;gap:6px}
+.tchip{position:relative;cursor:pointer;user-select:none}
+.tchip input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.tchip span{display:inline-flex;align-items:baseline;gap:6px;padding:6px 11px;border:1px solid var(--border);border-radius:99px;background:var(--surface-2);font-size:14px;line-height:1.3}
+.tchip span i{font-style:normal;color:var(--muted);font-size:12px}
+.tchip span em{font-style:normal;font-size:11px;font-weight:700;color:var(--muted);background:var(--surface);border-radius:99px;padding:0 6px}
+.tchip input:checked+span{background:var(--accent-soft);border-color:var(--accent);color:var(--text);font-weight:600}
+.tchip input:checked+span em{background:var(--accent);color:var(--accent-text)}
+.tchip input:focus-visible+span{outline:3px solid var(--accent-soft);outline-offset:1px}
+.badge{display:inline-block;min-width:22px;padding:0 6px;border-radius:99px;background:var(--surface-2);border:1px solid var(--border);font-size:12px;text-align:center;font-variant-numeric:tabular-nums}
+
+/* ---------- tarjeta ---------- */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;box-shadow:var(--shadow);margin-bottom:24px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:12px}
+.chip{display:inline-block;font-size:12px;font-weight:600;padding:3px 9px;border-radius:99px;background:var(--surface-2);color:var(--muted);border:1px solid var(--border)}
+.chip.vb{background:var(--vb-bg);color:var(--vb);border-color:transparent}
+.chip.pv{background:var(--pv-bg);color:var(--pv);border-color:transparent}
+.pos{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.def{font-size:19px;line-height:1.45;margin:0 0 10px;font-weight:500}
+.ex{margin:0 0 14px;color:var(--muted);font-style:italic}
+.ex .blank{font-style:normal;font-weight:700;color:var(--accent);letter-spacing:.05em}
+.ex .lbl{font-style:normal;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-right:6px}
+.hint{background:var(--hint-bg);color:var(--hint);border-radius:10px;padding:8px 12px;margin:0 0 14px;font-weight:500}
+.hint b{font-weight:700}
+
+.boxes{display:flex;flex-wrap:wrap;justify-content:center;column-gap:calc(var(--box)*.6);row-gap:10px;margin:18px 0 10px;width:100%}
+.word{display:flex;gap:4px;flex-wrap:nowrap}
+.box{width:var(--box);height:calc(var(--box)*1.18);border:2px solid var(--border);border-radius:9px;background:var(--surface-2);text-align:center;font-size:calc(var(--box)*.55);font-weight:700;text-transform:uppercase;padding:0;caret-color:var(--accent);outline:none;transition:border-color .12s,background .12s,transform .12s;-webkit-appearance:none;appearance:none}
+.box:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 3px var(--accent-soft)}
+.box.ok{border-color:var(--ok);background:var(--ok-bg);color:var(--ok)}
+.box.bad{border-color:var(--bad);background:var(--bad-bg);color:var(--bad)}
+.box.bad:focus{border-color:var(--bad);box-shadow:0 0 0 3px var(--bad-bg)}
+.box.missing{border-color:var(--bad);border-style:dashed}
+.box.rev{border-color:var(--rev);background:var(--rev-bg);color:var(--rev)}
+.box.hinted{border-color:var(--hint);background:var(--hint-bg);color:var(--hint)}
+.fixed{display:flex;align-items:center;justify-content:center;width:calc(var(--box)*.42);height:calc(var(--box)*1.18);font-size:calc(var(--box)*.6);font-weight:700;color:var(--muted)}
+.shake{animation:shake .35s}
+@keyframes shake{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){.shake{animation:none}}
+
+.feedback{min-height:26px;text-align:center;font-weight:600;margin:6px 0 12px}
+.feedback.ok{color:var(--ok)} .feedback.bad{color:var(--bad)} .feedback.rev{color:var(--rev)} .feedback.info{color:var(--muted)}
+.feedback .es{display:block;font-weight:500;color:var(--muted);font-size:14px}
+
+.actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.btn{border:1px solid var(--border);background:var(--surface-2);border-radius:11px;padding:11px 10px;font-weight:600;cursor:pointer;min-height:46px;transition:filter .12s,transform .06s}
+.btn:hover{filter:brightness(.97)}
+.btn:active{transform:translateY(1px)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.primary{background:var(--accent);color:var(--accent-text);border-color:transparent}
+.btn.ghost{background:transparent}
+.btn.small{min-height:36px;padding:6px 12px;font-size:14px}
+.btn.danger{background:var(--bad);color:#fff;border-color:transparent}
+.btn:focus-visible{outline:3px solid var(--accent-soft);outline-offset:2px}
+.reset{flex:0 0 auto}
+
+/* ---------- resumen ---------- */
+.big{font-size:40px;font-weight:800;margin:4px 0;font-variant-numeric:tabular-nums}
+.failed{list-style:none;padding:0;margin:12px 0 16px;display:flex;flex-direction:column;gap:6px}
+.failed li{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.failed .w{font-weight:700}
+.failed .t{color:var(--muted);font-size:14px}
+.failed .tag{margin-left:auto;font-size:12px;font-weight:600;color:var(--bad)}
+.row{display:flex;flex-wrap:wrap;gap:8px}
+
+/* ---------- modal ---------- */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px;z-index:20}
+.modal[hidden]{display:none}
+.dialog{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px;max-width:400px;width:100%;box-shadow:var(--shadow)}
+.dialog h2{margin:0 0 8px;font-size:18px}
+.dialog p{margin:0 0 16px;color:var(--muted)}
+.dialog .row{justify-content:flex-end}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:0 0 28px}
+kbd{font:12px ui-monospace,monospace;border:1px solid var(--border);border-bottom-width:2px;border-radius:5px;padding:0 5px;background:var(--surface)}
+
+
+/* ---------- inicio y modo examen ---------- */
+.home{padding-block:8px 0}
+.home-title{font-size:26px;margin:22px 0 4px;text-wrap:balance}
+.home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin:6px 0 22px}
+.home-card{display:flex;flex-direction:column;gap:6px;text-align:left;cursor:pointer;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:var(--shadow);transition:border-color .15s,transform .1s;min-width:0}
+.home-card:hover{border-color:var(--accent)}
+.home-card:active{transform:translateY(1px)}
+.home-card:focus-visible{outline:3px solid var(--accent-soft);outline-offset:2px}
+.hc-kicker{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.hc-title{font-size:21px;font-weight:750;line-height:1.25}
+.hc-text{color:var(--muted);font-size:15px}
+.hc-meta{margin-top:6px;font-size:13px;font-weight:600;color:var(--text);background:var(--surface-2);border-radius:8px;padding:6px 10px;align-self:flex-start}
+.hc-meta:empty{display:none}
+.home-btn{flex:0 0 auto}
+.stats .home-btn{order:-1}
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.topbar-in{display:flex;align-items:center;gap:10px;padding-top:10px;padding-bottom:10px}
+.topbar-title{font-weight:700;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.exam{padding-block:14px 8px}
+.exam h2{font-size:18px;margin:0 0 6px;text-wrap:balance}
+.exam h3{font-size:15px;margin:0 0 8px}
+.ex-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px;margin-bottom:14px}
+.ex-grid .card{margin:0;display:flex;flex-direction:column;gap:10px}
+.ex-grid .card p{margin:0;color:var(--muted);font-size:14px}
+.card-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.field-row{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.field-row .field{flex:1 1 180px}
+.field select{width:100%}
+.banner{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;background:var(--hint-bg);color:var(--text);border-radius:12px;padding:10px 14px;margin-bottom:14px}
+.banner b{color:var(--hint)}
+.banner .row{margin-left:auto}
+.chipset{display:flex;flex-wrap:wrap;gap:6px}
+.chipset-h{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.ex-head{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-bottom:12px}
+.ex-head .set-name{font-weight:800;font-size:17px}
+.timer{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:700;background:var(--surface);border:1px solid var(--border);border-radius:99px;padding:3px 10px;font-size:14px}
+.part{font-size:15px!important;letter-spacing:.02em;line-height:1.35}
+.marks{display:inline-block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:0;margin-left:4px}
+.instr{color:var(--muted);font-size:14px;margin:0 0 12px;font-style:italic}
+.ex-title{text-transform:uppercase;letter-spacing:.03em;text-align:center;margin:6px 0 8px!important}
+.ex-text{line-height:2.15;margin:0;font-size:16px;overflow-wrap:anywhere}
+.gap{white-space:nowrap}
+.gap .gn{font-weight:700}
+.gap .gv{color:var(--muted);font-style:italic}
+.gap-in{font:inherit;font-weight:600;color:var(--text);background:var(--surface-2);border:0;border-bottom:2px solid var(--border);border-radius:6px 6px 0 0;padding:1px 6px;width:9ch;min-width:7ch;max-width:min(26ch,70vw);outline:none}
+.gap-in:focus{border-bottom-color:var(--accent);background:var(--accent-soft)}
+.gap-in.ok{border-bottom-color:var(--ok);background:var(--ok-bg);color:var(--ok)}
+.gap-in.bad{border-bottom-color:var(--bad);background:var(--bad-bg);color:var(--bad)}
+.gap-in.rev{border-bottom-color:var(--rev);background:var(--rev-bg);color:var(--rev)}
+.gap-in.active{box-shadow:0 0 0 2px var(--accent)}
+.cue.on{background:var(--hint-bg);color:var(--hint);border-radius:4px;padding:0 2px;font-weight:600}
+.gap-panel{position:sticky;bottom:0;margin-top:14px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 12px;box-shadow:0 -4px 16px rgba(0,0,0,.06)}
+.gap-panel .gp-h{font-weight:700;margin-bottom:8px}
+.btns{display:flex;flex-wrap:wrap;gap:6px}
+.btns .btn{min-height:38px;padding:7px 12px;font-size:14px}
+.fb{margin-top:8px;font-size:14px}
+.fb:empty{display:none}
+.fb .res{font-weight:700}
+.fb .res.ok{color:var(--ok)} .fb .res.bad{color:var(--bad)} .fb .res.rev{color:var(--rev)} .fb .res.maybe{color:var(--hint)}
+.fb ul{margin:4px 0;padding-left:18px}
+.fb .model{margin:6px 0}
+.fb .model b{font-weight:700}
+.rule{background:var(--accent-soft);border-radius:10px;padding:8px 12px;margin-top:8px;font-size:13.5px}
+.rule .rn{font-weight:700}
+.rule code{font:600 12.5px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--surface);border-radius:5px;padding:1px 5px;display:inline-block;margin-top:2px}
+.rule p{margin:4px 0 0}
+.rule .eg{color:var(--muted);font-style:italic}
+.diff{line-height:1.9;margin:6px 0}
+.diff del{color:var(--bad);background:var(--bad-bg);text-decoration:line-through;border-radius:4px;padding:0 3px}
+.diff ins{color:var(--ok);background:var(--ok-bg);text-decoration:underline;border-radius:4px;padding:0 3px}
+.legend{font-size:12px;color:var(--muted)}
+.rw{border-top:1px solid var(--border);padding:12px 0}
+.rw:first-of-type{border-top:0}
+.rw-orig{margin:0 0 8px}
+.kw{font-weight:800;letter-spacing:.02em;white-space:nowrap}
+.rw-in{width:100%;font:inherit;color:var(--text);background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:9px 11px;resize:vertical;min-height:46px;outline:none}
+.rw-in:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.rw-in.ok{border-color:var(--ok);background:var(--ok-bg)}
+.rw-in.bad{border-color:var(--bad);background:var(--bad-bg)}
+.rw-in.maybe{border-color:var(--hint);background:var(--hint-bg)}
+.rw-in.rev{border-color:var(--rev);background:var(--rev-bg)}
+.rw .btns{margin-top:8px}
+.hint-line{font-size:13.5px;color:var(--hint);background:var(--hint-bg);border-radius:8px;padding:5px 10px;margin-top:8px}
+.hint-line:empty{display:none}
+.hint-line code{font:600 12.5px ui-monospace,SFMono-Regular,Menlo,monospace}
+.paper-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-bottom:24px}
+.result{border-color:var(--accent)}
+.grade{font-size:44px;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+.grade small{font-size:20px;color:var(--muted);font-weight:600}
+.breakdown{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.breakdown span{background:var(--surface-2);border-radius:8px;padding:5px 10px;font-size:14px;font-variant-numeric:tabular-nums}
+.gap-review{margin:12px 0 0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.gap-review li{background:var(--surface-2);border-radius:10px;padding:8px 10px}
+.gap-review .yours.bad{color:var(--bad);text-decoration:line-through}
+.gap-review .yours.ok{color:var(--ok);font-weight:600}
+.gap-review .t{color:var(--muted)}
+.drill-ctx{font-size:17px;line-height:2.1;margin:6px 0 4px}
+.drill-ctx .filled{color:var(--muted);font-weight:600}
+.drill-score{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.bars{display:flex;flex-direction:column;gap:6px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) 3.4em;gap:8px;align-items:center;font-size:14px}
+.bar .bl{display:flex;flex-direction:column;gap:3px;min-width:0}
+.bar .bn{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .track{height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.bar .fill{height:100%;background:var(--accent);border-radius:99px}
+.bar .fill.low{background:var(--bad)} .bar .fill.mid{background:var(--hint)} .bar .fill.high{background:var(--ok)}
+.bar .pc{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.bar.none .pc{color:var(--muted);font-weight:400}
+.tbl-wrap{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse;font-size:14px}
+.tbl th,.tbl td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
+.tbl td.num,.tbl th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tbl td.ttl{white-space:normal;min-width:12em}
+.muted{color:var(--muted)}
+.exam .card > p.muted{font-size:14px}
+@media (max-width:560px){
+  .home-title{font-size:22px}
+  .ex-text{font-size:15.5px}
+  .grade{font-size:36px}
+}
+@media (max-width:560px){
+  .stats .wrap{flex-wrap:wrap}
+  .stat-grid{gap:4px;order:1;flex-basis:100%}
+  .stat{padding:5px 2px}
+  .stat .lbl{font-size:10px}
+  .stat .long{display:none}
+  .stat .short{display:inline}
+  .stat .val{font-size:15px}
+  .stat .val small{font-size:11px}
+  .reset{order:0;margin-left:auto}
+  .card{padding:14px 12px}
+  .def{font-size:17px}
+  .actions{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .filters{padding:10px 12px}
+  .tchip span i{display:none}
+  h1{font-size:18px;margin-top:12px}
+}
+</style>
+</head>
+<body>
+<div id="homeView">
+  <main class="wrap home">
+    <h1 class="home-title">Práctica de inglés — 5to</h1>
+    <p class="sub">English File Upper-Intermediate · Instituto Cambridge. Elegí qué querés practicar.</p>
+    <div class="home-grid">
+      <button class="home-card" type="button" data-go="vocab">
+        <span class="hc-kicker">Modo 1</span>
+        <span class="hc-title">Vocabulario</span>
+        <span class="hc-text">Vocabulary Bank (SB 152–163) y Phrasal Verbs: definición en inglés y escribís la palabra.</span>
+        <span class="hc-meta" id="homeVocabMeta"></span>
+      </button>
+      <button class="home-card" type="button" data-go="exam">
+        <span class="hc-kicker">Modo 2</span>
+        <span class="hc-title">Examen: Tenses &amp; Rewrite</span>
+        <span class="hc-text">Los dos ejercicios del examen: completar el texto con el tiempo y la voz correctos, y reescribir oraciones. 20 exámenes, nota sobre 6,5.</span>
+        <span class="hc-meta" id="homeExamMeta"></span>
+      </button>
+    </div>
+    <footer>El progreso se guarda solo en este navegador.</footer>
+  </main>
+</div>
+<div id="vocabView" hidden>
+<header class="stats">
+  <div class="wrap">
+    <button class="btn small ghost home-btn" type="button" data-go="home">← Inicio</button>
+    <div class="stat-grid" aria-live="polite">
+      <div class="stat"><span class="lbl"><span class="long">Puntos / jugadas</span><span class="short">Puntos</span></span><span class="val" id="sPoints">0 <small>/ 0</small></span></div>
+      <div class="stat"><span class="lbl">Porcentaje</span><span class="val" id="sPct">0%</span></div>
+      <div class="stat"><span class="lbl">Racha</span><span class="val" id="sStreak">0</span></div>
+      <div class="stat"><span class="lbl"><span class="long">Mejor racha</span><span class="short">Mejor</span></span><span class="val" id="sBest">0</span></div>
+      <div class="stat"><span class="lbl">Faltan</span><span class="val" id="sLeft">0</span></div>
+    </div>
+    <button class="btn small ghost reset" id="btnReset" type="button">Reiniciar</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Práctica de vocabulario</h1>
+  <p class="sub">English File Upper-Intermediate · Vocabulary Bank y Phrasal Verbs. Leé la definición y escribí la palabra en los cuadraditos.</p>
+
+  <section class="filters" aria-label="Filtros">
+    <label class="field">Fuente
+      <select id="fSource">
+        <option value="all">Todo</option>
+        <option value="vb">Vocabulary Bank</option>
+        <option value="pv">Phrasal Verbs</option>
+      </select>
+    </label>
+    <label class="field">Cantidad de palabras
+      <select id="fSize">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="0">Todas</option>
+      </select>
+    </label>
+    <label class="chk"><input type="checkbox" id="fShuffle"> Orden aleatorio</label>
+    <label class="chk"><input type="checkbox" id="fReview"> Repasar falladas <span class="badge" id="missedCount">0</span></label>
+    <details class="topics" id="topicsBox">
+      <summary>Temas <span class="tsum" id="topicsSummary"></span></summary>
+      <div class="tbar">
+        <button class="btn small" id="tClear" type="button">Todos los temas</button>
+        <span class="note">Tocá uno o varios temas para practicar solo esos. Sin ninguno marcado, entran todos.</span>
+      </div>
+      <div id="topicsList"></div>
+    </details>
+  </section>
+
+  <section class="card" id="play" hidden>
+    <div class="meta" id="cMeta"></div>
+    <p class="def" id="cDef"></p>
+    <p class="ex" id="cEx"></p>
+    <div class="hint" id="cHint" hidden></div>
+    <div class="boxes" id="boxes"></div>
+    <div class="feedback" id="feedback" aria-live="polite"></div>
+    <div class="actions">
+      <button class="btn primary" id="bCheck" type="button">Comprobar</button>
+      <button class="btn" id="bHint" type="button">Pista</button>
+      <button class="btn" id="bReveal" type="button">Mostrar respuesta</button>
+      <button class="btn" id="bNext" type="button" title="Si pasás sin responder, la palabra cuenta como fallada">Siguiente</button>
+    </div>
+  </section>
+
+  <section class="card" id="summary" hidden>
+    <h2 style="margin:0">¡Terminaste el mazo!</h2>
+    <p class="big" id="sumScore"></p>
+    <p class="sub" id="sumDetail" style="margin-bottom:4px"></p>
+    <div id="sumFailedWrap">
+      <h3 style="margin:16px 0 0;font-size:16px">Las que fallaste</h3>
+      <ul class="failed" id="sumFailed"></ul>
+    </div>
+    <p class="sub" id="sumPerfect" hidden>No fallaste ninguna. ¡Excelente!</p>
+    <div class="row">
+      <button class="btn primary" id="bAgain" type="button">Otra ronda con los mismos temas</button>
+      <button class="btn" id="bReviewFailed" type="button">Repasar falladas</button>
+    </div>
+  </section>
+
+  <section class="card" id="empty" hidden>
+    <h2 style="margin:0 0 6px;font-size:18px" id="emptyTitle">No hay palabras</h2>
+    <p class="sub" id="emptyText" style="margin:0 0 12px"></p>
+    <button class="btn" id="bEmptyBack" type="button">Ver todas las palabras</button>
+  </section>
+
+  <footer>
+    <kbd>Enter</kbd> comprueba (o pasa a la siguiente) · <kbd>←</kbd> <kbd>→</kbd> mueven el cursor · <kbd>Espacio</kbd> salta a la palabra siguiente · el progreso se guarda solo en este navegador.
+  </footer>
+</main>
+</div>
+<div id="examView" hidden>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <button class="btn small ghost home-btn" type="button" data-go="home">← Inicio</button>
+      <span class="topbar-title" id="exTopTitle">Examen: Tenses &amp; Rewrite</span>
+      <button class="btn small ghost" type="button" id="exToMenu" hidden>Menú del examen</button>
+    </div>
+  </header>
+  <main class="wrap exam" id="exMain"></main>
+</div>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="dialog">
+    <h2 id="mTitle">¿Reiniciar todo?</h2>
+    <p id="mText">Se borran los puntos, las rachas y la lista de palabras falladas. El mazo se arma de nuevo con los filtros actuales.</p>
+    <div class="row">
+      <button class="btn" id="mCancel" type="button">Cancelar</button>
+      <button class="btn danger" id="mOk" type="button">Sí, reiniciar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+"use strict";
+const DATA = /*__DATA__*/[];
+const UNIT_ORDER = /*__UNITS__*/[];
+const VB = "Vocabulary Bank", PV = "Phrasal Verbs";
+const KEY = "practica-vocabulario-v1";
+const BY_ID = new Map(DATA.map(e => [e.id, e]));
+const $ = id => document.getElementById(id);
+
+/* ---------- guardado ---------- */
+function freshScore(){ return {points:0, played:0, streak:0, best:0}; }
+function freshState(){
+  return {score:freshScore(), missed:{}, filters:{source:"all", units:[], size:0, shuffle:true, review:false}, deck:null, card:null};
+}
+function loadState(){
+  let s = null;
+  try { s = JSON.parse(localStorage.getItem(KEY)); } catch (e) { s = null; }
+  const d = freshState();
+  if (!s || typeof s !== "object") return d;
+  const out = {
+    score: Object.assign(freshScore(), s.score || {}),
+    missed: (s.missed && typeof s.missed === "object") ? s.missed : {},
+    filters: Object.assign(d.filters, s.filters || {}),
+    deck: s.deck || null,
+    card: s.card || null,
+    topicsOpen: typeof s.topicsOpen === "boolean" ? s.topicsOpen : null
+  };
+  for (const id of Object.keys(out.missed)) if (!BY_ID.has(id)) delete out.missed[id];
+  const f = out.filters;
+  if (!Array.isArray(f.units)) f.units = (typeof f.unit === "string" && f.unit !== "all") ? [f.unit] : [];
+  delete f.unit;
+  f.units = f.units.filter(u => UNIT_ORDER.includes(u));
+  f.size = [0, 10, 20, 30, 50].includes(+f.size) ? +f.size : 0;
+  if (out.deck && (!Array.isArray(out.deck.ids) || out.deck.ids.some(id => !BY_ID.has(id)))) { out.deck = null; out.card = null; }
+  return out;
+}
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* sin almacenamiento: seguimos igual */ } }
+let state = loadState();
+
+/* ---------- utilidades ---------- */
+const norm = s => s.toLowerCase().replace(/[^a-z]/g, "");
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => (Math.round(n * 10) / 10).toString().replace(".", ",");
+function shuffle(a){ for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function sourceOk(e, src){ return src === "all" || (src === "vb" ? e.source.includes(VB) : e.source.includes(PV)); }
+function matches(e, f){
+  if (!sourceOk(e, f.source)) return false;
+  if (f.units.length && !e.units.some(u => f.units.includes(u))) return false;
+  if (f.review && !state.missed[e.id]) return false;
+  return true;
+}
+
+/* ---------- mazo ---------- */
+function buildDeck(){
+  const ids = DATA.filter(e => matches(e, state.filters)).map(e => e.id);
+  if (state.filters.shuffle) shuffle(ids);
+  if (state.filters.size > 0) ids.splice(state.filters.size);
+  state.deck = {ids, index:0, points:0, played:0, failed:[]};
+  state.card = null;
+  save();
+  render();
+}
+function currentEntry(){
+  const d = state.deck;
+  if (!d || d.index >= d.ids.length) return null;
+  return BY_ID.get(d.ids[d.index]);
+}
+function ensureCard(){
+  const e = currentEntry();
+  if (!e) { state.card = null; return null; }
+  if (!state.card || state.card.id !== e.id) state.card = {id:e.id, hint:false, wrong:0, resolved:false, result:null, typed:[]};
+  return e;
+}
+
+/* ---------- filtros ---------- */
+const UNIT_ES = {
+  "152": "Enfermedades y lesiones", "153": "Ropa y moda", "154": "Viajes en avión", "155": "Adverbios",
+  "156": "El clima", "157": "Sentimientos", "158": "Verbos que se confunden", "159": "El cuerpo",
+  "160": "Delito y castigo", "161": "Los medios", "162": "Negocios", "163": "Formación de palabras"
+};
+function unitGroup(u){ return /^\d{3} /.test(u) ? 0 : u.startsWith("A–Z") ? 2 : 1; }
+function topicCounts(){
+  const counts = new Map();
+  for (const e of DATA) if (sourceOk(e, state.filters.source)) for (const u of e.units) counts.set(u, (counts.get(u) || 0) + 1);
+  return counts;
+}
+function renderTopics(){
+  const f = state.filters, counts = topicCounts();
+  f.units = f.units.filter(u => counts.has(u));
+  const names = ["Vocabulary Bank", "Lecciones de phrasal verbs", "Phrasal verbs A–Z"];
+  let html = "";
+  for (let g = 0; g < 3; g++) {
+    const us = UNIT_ORDER.filter(u => unitGroup(u) === g && counts.has(u));
+    if (!us.length) continue;
+    html += `<div class="tgroup"><div class="tgroup-h"><h3>${names[g]}</h3><button type="button" class="linkbtn" data-group="${g}">marcar todo</button></div><div class="tchips">` +
+      us.map(u => {
+        const label = u.startsWith("A–Z · ") ? "Letra " + u.slice(6) : u;
+        const es = g === 0 ? ` <i>${UNIT_ES[u.slice(0, 3)] || ""}</i>` : "";
+        return `<label class="tchip" data-unit="${esc(u)}"><input type="checkbox" value="${esc(u)}"${f.units.includes(u) ? " checked" : ""}><span>${esc(label)}${es}<em>${counts.get(u)}</em></span></label>`;
+      }).join("") + `</div></div>`;
+  }
+  $("topicsList").innerHTML = html;
+  updateTopicsSummary();
+}
+function updateTopicsSummary(){
+  const f = state.filters;
+  const n = DATA.filter(e => sourceOk(e, f.source) && (!f.units.length || e.units.some(u => f.units.includes(u)))).length;
+  const which = f.units.length === 0 ? "todos" : f.units.length === 1 ? f.units[0].replace(/^A–Z · /, "letra ") : `${f.units.length} temas elegidos`;
+  $("topicsSummary").textContent = `· ${which} (${n} palabras)`;
+  $("tClear").disabled = !f.units.length;
+}
+$("topicsList").addEventListener("change", ev => {
+  const cb = ev.target;
+  if (cb.type !== "checkbox") return;
+  const f = state.filters;
+  f.units = f.units.filter(u => u !== cb.value);
+  if (cb.checked) f.units.push(cb.value);
+  updateTopicsSummary();
+  buildDeck();
+});
+$("topicsList").addEventListener("click", ev => {
+  const b = ev.target.closest("[data-group]");
+  if (!b) return;
+  const g = +b.dataset.group, counts = topicCounts();
+  const us = UNIT_ORDER.filter(u => unitGroup(u) === g && counts.has(u));
+  const all = us.every(u => state.filters.units.includes(u));
+  state.filters.units = state.filters.units.filter(u => !us.includes(u));
+  if (!all) state.filters.units.push(...us);
+  renderTopics();
+  buildDeck();
+});
+$("tClear").addEventListener("click", () => { state.filters.units = []; renderTopics(); buildDeck(); });
+$("topicsBox").addEventListener("toggle", () => { state.topicsOpen = $("topicsBox").open; save(); });
+function syncFilterInputs(){
+  $("fSource").value = state.filters.source;
+  $("fSize").value = String(state.filters.size);
+  renderTopics();
+  $("fShuffle").checked = !!state.filters.shuffle;
+  $("fReview").checked = !!state.filters.review;
+}
+$("fSource").addEventListener("change", e => { state.filters.source = e.target.value; renderTopics(); buildDeck(); });
+$("fSize").addEventListener("change", e => { state.filters.size = +e.target.value; buildDeck(); });
+$("fShuffle").addEventListener("change", e => { state.filters.shuffle = e.target.checked; buildDeck(); });
+$("fReview").addEventListener("change", e => { state.filters.review = e.target.checked; buildDeck(); });
+
+/* ---------- puntaje ---------- */
+function renderStats(){
+  const s = state.score;
+  $("sPoints").innerHTML = `${fmt(s.points)} <small>/ ${s.played}</small>`;
+  $("sPct").textContent = (s.played ? Math.round(s.points / s.played * 100) : 0) + "%";
+  $("sStreak").textContent = s.streak;
+  $("sBest").textContent = s.best;
+  const d = state.deck;
+  let left = 0;
+  if (d) left = Math.max(0, d.ids.length - d.index - (state.card && state.card.resolved ? 1 : 0));
+  $("sLeft").textContent = left;
+  $("missedCount").textContent = Object.keys(state.missed).length;
+}
+
+/* ---------- cuadraditos ---------- */
+let slots = [];      // {el, ch, word}
+let advanceTimer = null;
+
+function buildBoxes(e){
+  const wrap = $("boxes");
+  wrap.innerHTML = "";
+  slots = [];
+  const words = e.answer.split(" ");
+  words.forEach((w, wi) => {
+    const g = document.createElement("div");
+    g.className = "word";
+    for (const ch of w) {
+      if (/[a-z]/i.test(ch)) {
+        const inp = document.createElement("input");
+        inp.className = "box";
+        inp.type = "text";
+        inp.setAttribute("autocapitalize", "none");
+        inp.setAttribute("autocorrect", "off");
+        inp.setAttribute("autocomplete", "off");
+        inp.setAttribute("spellcheck", "false");
+        inp.setAttribute("inputmode", "text");
+        inp.setAttribute("enterkeyhint", "go");
+        const i = slots.length;
+        inp.dataset.i = i;
+        slots.push({el:inp, ch:ch.toLowerCase(), word:wi});
+        g.appendChild(inp);
+      } else {
+        const sp = document.createElement("span");
+        sp.className = "fixed";
+        sp.textContent = ch === "'" ? "’" : ch;
+        sp.setAttribute("aria-hidden", "true");
+        g.appendChild(sp);
+      }
+    }
+    wrap.appendChild(g);
+  });
+  slots.forEach((s, i) => s.el.setAttribute("aria-label", `Letra ${i + 1} de ${slots.length}`));
+  sizeBoxes(e);
+}
+function sizeBoxes(e){
+  e = e || currentEntry();
+  if (!e) return;
+  const wrap = $("boxes");
+  const W = wrap.clientWidth || 320;
+  const longest = Math.max(...e.answer.split(" ").map(w => [...w].reduce((n, c) => n + (/[a-z]/i.test(c) ? 1 : 0.55), 0)));
+  const gap = 4;
+  let size = Math.floor((W - (Math.ceil(longest) - 1) * gap) / longest);
+  size = Math.max(18, Math.min(46, size));
+  wrap.style.setProperty("--box", size + "px");
+}
+window.addEventListener("resize", () => sizeBoxes());
+
+const editable = i => slots[i] && !slots[i].el.readOnly;
+function focusSlot(i){
+  const s = slots[i];
+  if (!s) return;
+  s.el.focus({preventScroll:true});
+  try { s.el.setSelectionRange(0, s.el.value.length); } catch (e) {}
+}
+function nextEditable(i){ for (let j = i + 1; j < slots.length; j++) if (editable(j)) return j; return -1; }
+function prevEditable(i){ for (let j = i - 1; j >= 0; j--) if (editable(j)) return j; return -1; }
+function firstEmpty(){ for (let j = 0; j < slots.length; j++) if (editable(j) && !slots[j].el.value) return j; for (let j = 0; j < slots.length; j++) if (editable(j)) return j; return -1; }
+function storeTyped(){ if (state.card) { state.card.typed = slots.map(s => s.el.value); save(); } }
+function clearMarks(){ slots.forEach(s => s.el.classList.remove("bad", "missing")); }
+
+$("boxes").addEventListener("input", ev => {
+  const el = ev.target;
+  if (!el.classList.contains("box") || el.readOnly) return;
+  const i = +el.dataset.i;
+  const letters = (el.value || "").match(/[a-z]/gi);
+  el.value = letters ? letters[letters.length - 1].toLowerCase() : "";
+  el.classList.remove("bad", "missing");
+  storeTyped();
+  if (el.value) { const n = nextEditable(i); if (n >= 0) focusSlot(n); }
+});
+$("boxes").addEventListener("keydown", ev => {
+  const el = ev.target;
+  if (!el.classList.contains("box")) return;
+  const i = +el.dataset.i;
+  switch (ev.key) {
+    case "Backspace": {
+      ev.preventDefault();
+      if (state.card && state.card.resolved) return;
+      if (el.value && !el.readOnly) { el.value = ""; el.classList.remove("bad", "missing"); storeTyped(); }
+      else { const p = prevEditable(i); if (p >= 0) { slots[p].el.value = ""; slots[p].el.classList.remove("bad", "missing"); storeTyped(); focusSlot(p); } }
+      break;
+    }
+    case "Delete":
+      ev.preventDefault();
+      if (!el.readOnly) { el.value = ""; storeTyped(); }
+      break;
+    case "ArrowLeft": { ev.preventDefault(); const p = prevEditable(i); if (p >= 0) focusSlot(p); break; }
+    case "ArrowRight": { ev.preventDefault(); const n = nextEditable(i); if (n >= 0) focusSlot(n); break; }
+    case "Home": { ev.preventDefault(); const f = nextEditable(-1); if (f >= 0) focusSlot(f); break; }
+    case "End": { ev.preventDefault(); const l = prevEditable(slots.length); if (l >= 0) focusSlot(l); break; }
+    case "Enter":
+      ev.preventDefault();
+      ev.stopPropagation();
+      if (state.card && state.card.resolved) goNext(); else check();
+      break;
+    case " ": {
+      ev.preventDefault();
+      const w = slots[i].word;
+      const j = slots.findIndex((s, k) => k > i && s.word > w && editable(k));
+      if (j >= 0) focusSlot(j);
+      break;
+    }
+  }
+});
+$("boxes").addEventListener("focusin", ev => {
+  const el = ev.target;
+  if (el.classList && el.classList.contains("box")) setTimeout(() => { try { el.setSelectionRange(0, el.value.length); } catch (e) {} }, 0);
+});
+
+/* ---------- pintar ---------- */
+function show(id){ for (const s of ["play", "summary", "empty"]) $(s).hidden = s !== id; }
+
+function render(){
+  renderStats();
+  const d = state.deck;
+  if (!d || !d.ids.length) { renderEmpty(); return; }
+  if (d.index >= d.ids.length) { renderSummary(); return; }
+  const e = ensureCard();
+  const c = state.card;
+  show("play");
+
+  const chips = e.units.map(u => `<span class="chip">${esc(u)}</span>`).join("") +
+    e.source.map(s => `<span class="chip ${s === VB ? "vb" : "pv"}">${s}</span>`).join("");
+  $("cMeta").innerHTML = chips + `<span class="pos">${d.index + 1} de ${d.ids.length}</span>`;
+  $("cDef").textContent = e.definition;
+  $("cEx").innerHTML = `<span class="lbl">Ejemplo</span>` + esc(e.example).replace(/_____/g, '<span class="blank">_____</span>');
+
+  buildBoxes(e);
+  slots.forEach((s, i) => { s.el.value = (c.typed && c.typed[i]) || ""; });
+  if (c.hint) applyHint(false);
+  const hintEl = $("cHint");
+  hintEl.hidden = !c.hint;
+  if (c.hint) hintEl.innerHTML = `Pista: <b>${esc(e.spanish)}</b> · empieza con <b>${esc(e.answer[0].toUpperCase())}</b>`;
+
+  $("feedback").className = "feedback";
+  $("feedback").innerHTML = "";
+  if (c.resolved) paintResolved(e); else setButtons(false);
+  if (!c.resolved) { const f = firstEmpty(); if (f >= 0) focusSlot(f); }
+  save();
+}
+
+function setButtons(resolved){
+  $("bCheck").disabled = resolved;
+  $("bHint").disabled = resolved || (state.card && state.card.hint);
+  $("bReveal").disabled = resolved;
+  $("bNext").classList.toggle("primary", resolved);
+  $("bCheck").classList.toggle("primary", !resolved);
+}
+function lockAll(){ slots.forEach(s => { s.el.readOnly = true; s.el.tabIndex = -1; }); }
+
+function paintResolved(e){
+  const c = state.card;
+  lockAll();
+  if (c.result === "ok") {
+    slots.forEach((s, i) => { if (!s.el.value && c.typed && c.typed[i]) s.el.value = c.typed[i]; s.el.classList.add("ok"); });
+    const pts = c.hint ? 0.5 : 1;
+    feedback("ok", `¡Correcto! +${fmt(pts)}`, e);
+  } else {
+    slots.forEach(s => { s.el.value = s.ch; s.el.classList.remove("bad", "missing", "hinted", "ok"); s.el.classList.add("rev"); });
+    feedback("rev", c.result === "skip" ? "La saltaste. La respuesta era:" : "La respuesta es:", e, true);
+  }
+  setButtons(true);
+  $("bNext").focus({preventScroll:true});
+}
+function feedback(kind, msg, e, withAnswer){
+  const fb = $("feedback");
+  fb.className = "feedback " + kind;
+  let html = esc(msg);
+  if (e) {
+    const alts = e.alternatives.length ? ` · también: ${e.alternatives.map(esc).join(", ")}` : "";
+    html += (withAnswer ? ` <b>${esc(e.answer)}</b>` : "") + `<span class="es">${withAnswer ? "" : esc(e.answer) + " — "}${esc(e.spanish)}${alts}</span>`;
+  }
+  fb.innerHTML = html;
+}
+
+/* ---------- acciones ---------- */
+function applyHint(store){
+  const e = currentEntry();
+  const s0 = slots[0];
+  if (!s0) return;
+  s0.el.value = s0.ch;
+  s0.el.readOnly = true;
+  s0.el.tabIndex = -1;
+  s0.el.classList.remove("bad", "missing");
+  s0.el.classList.add("hinted");
+  if (store) storeTyped();
+}
+function hint(){
+  const c = state.card, e = currentEntry();
+  if (!c || c.resolved || c.hint) return;
+  c.hint = true;
+  applyHint(true);
+  const hintEl = $("cHint");
+  hintEl.hidden = false;
+  hintEl.innerHTML = `Pista: <b>${esc(e.spanish)}</b> · empieza con <b>${esc(e.answer[0].toUpperCase())}</b>`;
+  $("bHint").disabled = true;
+  save();
+  const f = firstEmpty(); if (f >= 0) focusSlot(f);
+}
+
+function check(){
+  const c = state.card, e = currentEntry();
+  if (!c || c.resolved || !e) return;
+  const typed = slots.map(s => s.el.value);
+  if (typed.every(v => !v)) { feedback("info", "Escribí la respuesta en los cuadraditos."); const f = firstEmpty(); if (f >= 0) focusSlot(f); return; }
+  const accepted = new Set([e.answer, ...e.alternatives].map(norm));
+  if (accepted.has(norm(typed.join("")))) { resolve("ok"); return; }
+  clearMarks();
+  const empty = typed.some(v => !v);
+  if (empty) {
+    slots.forEach(s => { if (!s.el.value) s.el.classList.add("missing"); });
+    feedback("info", "Te faltan letras: completá todos los cuadraditos.");
+    const f = firstEmpty(); if (f >= 0) focusSlot(f);
+    return;
+  }
+  c.wrong++;
+  slots.forEach(s => { if (s.el.value !== s.ch && !s.el.readOnly) s.el.classList.add("bad"); });
+  const nBad = slots.filter(s => s.el.classList.contains("bad")).length;
+  feedback("bad", nBad === 1 ? "Casi: hay 1 letra mal. Probá de nuevo." : `Hay ${nBad} letras mal. Probá de nuevo.`);
+  const wrap = $("boxes"); wrap.classList.remove("shake"); void wrap.offsetWidth; wrap.classList.add("shake");
+  save();
+  const firstBad = slots.findIndex(s => s.el.classList.contains("bad"));
+  if (firstBad >= 0) focusSlot(firstBad);
+}
+
+function resolve(result){
+  const c = state.card, e = currentEntry(), s = state.score, d = state.deck;
+  c.resolved = true;
+  c.result = result;
+  c.typed = slots.map(x => x.el.value);
+  s.played++; d.played++;
+  if (result === "ok") {
+    const pts = c.hint ? 0.5 : 1;
+    s.points += pts; d.points += pts;
+    s.streak++; if (s.streak > s.best) s.best = s.streak;
+    if (c.wrong > 0) { state.missed[e.id] = true; d.failed.push({id:e.id, how:"con errores"}); }
+    else if (!c.hint) delete state.missed[e.id];
+  } else {
+    s.streak = 0;
+    state.missed[e.id] = true;
+    d.failed.push({id:e.id, how: result === "skip" ? "saltada" : "respuesta mostrada"});
+  }
+  save();
+  renderStats();
+  paintResolved(e);
+  if (result === "ok") {
+    const id = e.id;
+    clearTimeout(advanceTimer);
+    advanceTimer = setTimeout(() => { if (state.card && state.card.id === id && state.card.resolved) goNext(); }, 1000);
+  }
+}
+function reveal(){ const c = state.card; if (c && !c.resolved) resolve("reveal"); }
+function goNext(){
+  clearTimeout(advanceTimer);
+  const c = state.card;
+  if (!c || !state.deck) return;
+  if (!c.resolved) resolve("skip");
+  state.deck.index++;
+  state.card = null;
+  save();
+  render();
+}
+$("bCheck").addEventListener("click", check);
+$("bHint").addEventListener("click", hint);
+$("bReveal").addEventListener("click", reveal);
+$("bNext").addEventListener("click", goNext);
+document.addEventListener("keydown", ev => {
+  if (ev.key === "Enter" && !$("vocabView").hidden && state.card && state.card.resolved && !$("play").hidden && $("modal").hidden && ev.target.tagName !== "BUTTON" && ev.target.tagName !== "SELECT") { ev.preventDefault(); goNext(); }
+});
+
+/* ---------- resumen / vacío ---------- */
+function renderSummary(){
+  show("summary");
+  const d = state.deck;
+  $("sumScore").textContent = `${fmt(d.points)} / ${d.played}`;
+  $("sumDetail").textContent = d.played ? `${Math.round(d.points / d.played * 100)}% de acierto en este mazo (${d.ids.length} palabras).` : "";
+  const seen = new Set();
+  const list = d.failed.filter(f => !seen.has(f.id) && seen.add(f.id));
+  $("sumFailedWrap").hidden = !list.length;
+  $("sumPerfect").hidden = !!list.length;
+  $("bReviewFailed").hidden = !Object.keys(state.missed).length;
+  $("sumFailed").innerHTML = list.map(f => {
+    const e = BY_ID.get(f.id);
+    return `<li><span class="w">${esc(e.answer)}</span><span class="t">${esc(e.spanish)}</span><span class="tag">${esc(f.how)}</span></li>`;
+  }).join("");
+  state.card = null;
+  save();
+}
+function renderEmpty(){
+  show("empty");
+  const f = state.filters;
+  if (f.review) {
+    $("emptyTitle").textContent = "No tenés palabras falladas para repasar";
+    $("emptyText").textContent = Object.keys(state.missed).length ? "Ninguna de tus falladas coincide con la fuente o la unidad elegida." : "Cuando falles una palabra o pidas la respuesta, va a aparecer acá.";
+  } else {
+    $("emptyTitle").textContent = "No hay palabras con estos filtros";
+    $("emptyText").textContent = "Probá con otra fuente o unidad.";
+  }
+}
+$("bAgain").addEventListener("click", buildDeck);
+$("bReviewFailed").addEventListener("click", () => { state.filters.review = true; syncFilterInputs(); buildDeck(); });
+$("bEmptyBack").addEventListener("click", () => { state.filters = Object.assign(state.filters, {source:"all", units:[], review:false}); syncFilterInputs(); buildDeck(); });
+
+/* ---------- reiniciar ---------- */
+let lastFocus = null;
+let modalOk = null;
+const VOCAB_CONFIRM = {
+  title: "¿Reiniciar todo?",
+  text: "Se borran los puntos, las rachas y la lista de palabras falladas. El mazo se arma de nuevo con los filtros actuales.",
+  ok: "Sí, reiniciar",
+  onOk: resetVocab
+};
+function openConfirm(o){
+  lastFocus = document.activeElement;
+  $("mTitle").textContent = o.title; $("mText").textContent = o.text; $("mOk").textContent = o.ok || "Aceptar";
+  $("mOk").className = "btn " + (o.danger === false ? "primary" : "danger");
+  modalOk = o.onOk;
+  $("modal").hidden = false; $("mCancel").focus();
+}
+function openModal(){ openConfirm(VOCAB_CONFIRM); }
+function closeModal(){ $("modal").hidden = true; if (lastFocus && lastFocus.focus) lastFocus.focus({preventScroll:true}); }
+$("btnReset").addEventListener("click", openModal);
+$("mCancel").addEventListener("click", closeModal);
+$("modal").addEventListener("click", ev => { if (ev.target === $("modal")) closeModal(); });
+$("modal").addEventListener("keydown", ev => {
+  if (ev.key === "Escape") { ev.preventDefault(); closeModal(); }
+  if (ev.key === "Tab") { ev.preventDefault(); (document.activeElement === $("mOk") ? $("mCancel") : $("mOk")).focus(); }
+});
+$("mOk").addEventListener("click", () => {
+  const fn = modalOk; modalOk = null;
+  $("modal").hidden = true;
+  if (fn) fn();
+});
+function resetVocab(){
+  clearTimeout(advanceTimer);
+  state.score = freshScore();
+  state.missed = {};
+  if (state.filters.review) state.filters.review = false;
+  syncFilterInputs();
+  buildDeck();
+}
+
+/* ---------- inicio ---------- */
+syncFilterInputs();
+$("topicsBox").open = state.topicsOpen == null ? window.innerWidth > 700 : state.topicsOpen;
+if (state.card && state.card.resolved && state.deck) { state.deck.index++; state.card = null; }
+if (!state.deck) buildDeck(); else render();
+</script>
+<script>
+/*__INLINE:exam-core.js__*/
+</script>
+<script>
+/*__INLINE:exams.js__*/
+</script>
+<script>
+/*__INLINE:exam-ui.js__*/
+</script>
+</body>
+</html>
