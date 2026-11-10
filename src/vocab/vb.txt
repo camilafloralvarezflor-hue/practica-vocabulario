@@ -1,0 +1,469 @@
+# Vocabulary Bank. Format: answer;alt;alt | definition | example with {answer} | spanish
+@VB 152 · Illnesses and injuries
+cough | a sudden noisy push of air out of your throat, often because you are ill | She's got a bad {cough} and she can't stop. | tos
+headache | a continuous pain inside your skull, often caused by stress or tiredness | I've got a terrible {headache}, so I'm going to take an aspirin. | dolor de cabeza
+backache | a pain in the part of your body behind you, along your spine | Lifting all those heavy boxes gave me {backache}. | dolor de espalda
+earache | a pain inside one of the two organs at the sides of your head that you use to listen | The baby is crying because she has {earache}. | dolor de oído
+stomach ache;stomachache | a pain in your belly, often after eating something bad or too much | I ate too much chocolate and now I've got {stomach ache}. | dolor de panza
+toothache | a pain in one of the hard white things in your mouth that you use for biting | I need to see the dentist — I've got terrible {toothache}. | dolor de muela
+rash | an area of small red spots on your skin, often caused by an allergy or an illness | I've come out in a {rash} after using that new cream. | sarpullido, erupción
+temperature | a body heat that is higher than normal because you are ill; a fever | She's got a {temperature}, so she's staying in bed today. | fiebre
+sunburn | painful red skin caused by staying outside too long on a hot, bright day without protection | Put some cream on or you'll get {sunburn}. | quemadura de sol
+vomit;be sick | to bring food from your stomach back up and out through your mouth | She's {vomiting} — she must have eaten something bad. | vomitar (She's being sick / vomiting = está vomitando)
+sneeze | to blow air out of your nose suddenly and noisily, e.g. when you have a cold or an allergy | She's {sneezing} because she's allergic to the cat. | estornudar (She's sneezing = está estornudando)
+swollen | (of a part of the body) bigger and rounder than usual because of an injury or illness | Her ankle's {swollen} after the accident. | hinchado (Her ankle's swollen = tiene el tobillo hinchado)
+hurt;ache | (of a part of the body) to feel painful | My back {hurts} after sitting at the computer all day. | doler (Her back hurts / aches = le duele la espalda)
+bleed | to lose red liquid from your body, for example through a cut | Her finger's {bleeding} because she cut it with a knife. | sangrar (Her finger's bleeding = le sangra el dedo)
+sore throat | a painful feeling at the back of your mouth that makes swallowing difficult | He has a {sore throat}, so he can't speak very well. | le duele la garganta
+diarrhoea;diarrhea | an illness in which solid waste comes out of your body too often and in liquid form | He has {diarrhoea}, so he shouldn't eat anything heavy. | tiene diarrea
+feel sick | to think that you are going to vomit soon; to have nausea | He {feels sick} — I think he's going to throw up. | tiene náuseas, ganas de vomitar
+faint | to become unconscious suddenly for a short time, e.g. because of heat or shock | He {fainted} after standing in the sun for hours. | se desmayó (desmayarse)
+blister | a small swelling on the skin, full of liquid, caused by rubbing or heat | These new shoes have given me a {blister} on my foot. | tiene una ampolla en el pie
+cold | a common, mild illness that gives you a blocked nose and a sore throat | He has a {cold}, so he's sneezing a lot. | está resfriado (resfrío)
+flu | an infectious illness like a very bad cold, with a high temperature and pain all over the body | He has {flu}, so he's staying in bed for a few days. | tiene gripe
+dizzy | feeling as if everything is spinning round and you are going to lose your balance | He feels {dizzy} when he stands up too quickly. | está mareado
+cut | to injure yourself with something sharp so that you bleed | He's {cut} himself while he was chopping onions. | se cortó
+ache all over | to feel pain in every part of your body | When you have flu you usually {ache all over}. | le duele todo el cuerpo
+swallow | to make food or drink go down your throat | It hurts when he {swallows}. | tragar (swallows = traga)
+lose consciousness | to stop being awake and aware of what is around you, e.g. after an accident | He {lost consciousness} for a few seconds after he hit his head. | perder el conocimiento
+spin round;spin around | to turn in circles very fast | Everything is {spinning round} — I need to sit down. | dar vueltas (spinning round = dando vueltas)
+uncomfortable | not pleasant to wear or use, often causing slight pain | These are really {uncomfortable} shoes — my feet are killing me. | incómodo (uncomfortable shoes = zapatos incómodos)
+unconscious | in a state like deep sleep, unable to see, hear or feel anything, usually after an injury | He's {unconscious} — call an ambulance! | está inconsciente
+allergic reaction | a bad response of your body, such as a rash or difficulty breathing, to something you eat or touch | He's had an {allergic reaction} to a wasp sting. | tuvo una reacción alérgica
+sprain | to injure a joint, such as your ankle or wrist, by twisting it suddenly | He's {sprained} his ankle playing football. | hacerse un esguince (He's sprained his ankle = se hizo un esguince de tobillo)
+blood pressure | the force with which the red liquid in your body moves around it, which a doctor can measure | He has high {blood pressure}, so he has to eat less salt. | presión (high / low blood pressure = presión alta / baja)
+food poisoning | an illness of the stomach caused by eating something that was bad or not cooked properly | He got {food poisoning} after eating some prawns at a party. | intoxicación alimentaria
+choke | to be unable to breathe because something is stuck in your throat | He's {choking} — a piece of meat is stuck in his throat! | atragantarse, ahogarse (He's choking = se está atragantando)
+burn;burnt;burned | to injure your skin with fire or with something very hot | He's {burnt} his hand on the cooker. | quemarse (He's burnt his hand = se quemó la mano)
+spill;spilt;spilled | to let a liquid fall out of its container by accident | He {spilt} boiling water on his hand. | volcar, derramar (spilt boiling water = se volcó agua hirviendo)
+fall badly;fell badly | to hit the ground in a way that hurts you | He {fell badly} and sprained his ankle. | caerse mal
+off | (of food) no longer fresh and not safe to eat | He was ill because he ate some prawns that were {off}. | en mal estado (prawns that were off = langostinos en mal estado)
+get stuck;got stuck | to become fixed in one place so that it cannot move | A fish bone {got stuck} in his throat. | trabarse (got stuck in his throat = se le trabó en la garganta)
+sting;stung | (of an insect) to hurt you by pushing a sharp point into your skin | He was {stung} by a wasp. | picar (stung by a wasp = lo picó una avispa)
+difficulty | a problem that makes something hard to do; if you have ~ breathing, it is hard to take in air | He has {difficulty} breathing. | dificultad (difficulty breathing = le cuesta respirar)
+plaster;band-aid | a small piece of sticky material that you put on your skin to cover a small cut | Put a {plaster} on it and some antiseptic cream. | curita (AmE band-aid)
+stitches;stitch | small pieces of thread that a doctor uses to close a deep cut | It's a deep cut — you'll need to have {stitches}. | puntos (have stitches = que te den puntos)
+painkillers;painkiller | tablets, such as aspirin, that you take to stop your head or body hurting | Take some {painkillers} for your headache. | analgésicos
+antibiotics;antibiotic | medicines that destroy bacteria and are used to cure infections | The doctor gave me {antibiotics} for the infection. | antibióticos
+bandage | to wrap a long strip of cloth around an injured part of the body | Put ice on your ankle and then {bandage} it. | vendar
+antihistamine | a medicine used to treat allergic reactions, e.g. to insect bites or pollen | Take an {antihistamine} tablet for the allergic reaction. | antihistamínico
+queue;queuing;queueing | to wait in a line of people until it is your turn | After two hours {queuing} in the sun, I fainted. | hacer fila (queuing = haciendo fila)
+
+@VB 153 · Clothes and fashion
+loose | (of clothes) not fitting closely; big and comfortable | I prefer {loose} T-shirts when it's hot. | suelto, holgado
+tight | (of clothes) fitting very closely to your body, sometimes too closely | These jeans are too {tight} — I can't do them up. | ajustado, apretado
+hooded | with a part that covers the head and neck | She was wearing a grey {hooded} top. | con capucha
+long-sleeved | (of a shirt, dress, etc.) with parts that cover the whole of your arms | Take a {long-sleeved} shirt in case it gets cold. | de manga larga
+short-sleeved | (of a shirt, dress, etc.) with parts that cover only the top of your arms | It's hot, so I'll wear a {short-sleeved} shirt. | de manga corta
+polo neck;turtleneck | a high, round collar that folds over and covers your throat; a jumper with this collar | He was wearing a black {polo neck} jumper. | cuello alto, polera
+sleeveless | (of a top or dress) with no parts covering the arms | It's too cold for a {sleeveless} dress. | sin mangas
+V-neck | a collar opening that comes to a point at the front of your chest; a jumper with this opening | He wore a {V-neck} jumper over his shirt. | escote en V
+checked | with a design of squares of different colours | He always wears a {checked} shirt. | a cuadros
+patterned | decorated with a repeated design of shapes, flowers, etc. | She bought a {patterned} skirt with flowers on it. | estampado
+plain | all one colour, without any design on it | I need a {plain} white T-shirt. | liso
+spotted | covered in small round marks; with dots | She looked lovely in her {spotted} dress. | a lunares
+striped | with long narrow lines of colour | Sailors often wear {striped} T-shirts. | a rayas
+cotton | a light natural cloth made from the soft white fibres of a plant | a {cotton} vest | algodón (a cotton vest = musculosa de algodón)
+denim | a strong, usually blue cloth used to make jeans | a {denim} waistcoat | jean, denim (a denim waistcoat = chaleco de jean)
+fur | the soft thick hair of some animals, sometimes used to make coats and collars | a {fur} collar | piel (a fur collar = cuello de piel)
+lace | a delicate cloth with a pattern of small holes, made by twisting fine thread | a {lace} top | encaje (a lace top = top / blusa de encaje)
+linen | a strong, cool cloth made from a plant, which creases easily | a {linen} suit | lino (a linen suit = traje de lino)
+lycra | a stretchy artificial material used for sports clothes and swimwear | a {lycra} swimsuit | lycra (a lycra swimsuit = malla enteriza de lycra)
+silk | a smooth, shiny, expensive cloth made from threads produced by a type of insect | a {silk} scarf | seda (a silk scarf = pañuelo de seda)
+velvet | a soft, thick cloth with a short raised surface on one side | a {velvet} bow tie | terciopelo (a velvet bow tie = moño de terciopelo)
+wool;woollen;woolen | the thick soft hair of sheep, or the cloth made from it | a {wool} cardigan | lana (a wool(len) cardigan = saco / cárdigan de lana)
+leather | material made from animal skin, used for shoes, bags, jackets, etc. | {leather} sandals | cuero (leather sandals = sandalias de cuero)
+suede | soft animal skin with a rough surface on one side, used for shoes and jackets | {suede} boots | gamuza (suede boots = botas de gamuza)
+casual | (of clothes) comfortable and informal, not for special occasions | I wear {casual} clothes at the weekend. | informal, casual
+scruffy | dirty and untidy in appearance | He always looks a bit {scruffy} in those old jeans. | desaliñado, dejado
+smart | clean, tidy and well dressed, often in formal clothes | You look very {smart} in that suit. | elegante, bien arreglado
+old-fashioned | not modern; no longer in style | That jacket looks really {old-fashioned}. | pasado de moda, anticuado
+classic | traditional in style and always popular, never going out of date | A white shirt is a {classic} item that never goes out of style. | clásico (no pasa de moda)
+fit | (of clothes) to be the right size and shape for somebody | These jeans don't {fit} me — they're too small. | quedar bien de talle
+suit | (of clothes, colours, etc.) to make somebody look attractive | That skirt really {suits} you. | quedar bien, favorecer
+match | (of colours or clothes) to be the same or a similar colour or pattern | Your shoes {match} your bag perfectly. | combinar (ser del mismo color)
+get changed | to take off your clothes and put on different ones | I need to {get changed} before the party. | cambiarse (de ropa)
+get undressed | to take off your clothes | He {got undressed} and went to bed. | desvestirse
+get dressed | to put on your clothes | Wake up and {get dressed} — we're late! | vestirse
+
+@VB 154 · Air travel
+terminal;airport terminal | a large building where passengers arrive and leave when they travel by plane | Our flight leaves from {terminal} 2. | terminal (Arrivals = arribos, Departures = partidas)
+bag drop;baggage drop | the place where you leave your suitcase when you already have your boarding pass | If you checked in online, go straight to the {bag drop}. | despacho de equipaje (ya tenés la tarjeta de embarque)
+baggage reclaim | the place where you collect your suitcases after a flight | We waited forty minutes at {baggage reclaim}. | retiro de equipaje (la cinta)
+check-in desk | the place where you show your ticket, leave your luggage and get your boarding pass | There was a long queue at the {check-in desk}. | mostrador de check-in
+customs | the place at an airport or border where officials look for illegal goods in your luggage | We had nothing to declare at {customs}. | aduana
+departures board | a screen that shows information about flights that are leaving, e.g. if they are on time or delayed | Look at the {departures board} to see if our flight is delayed. | pantalla de partidas
+gate | the place at an airport where you wait before you get on your plane | Flight BA 247 is now boarding at {gate} 12. | puerta de embarque
+runway | a long strip of hard ground where planes take off and land | The plane is waiting on the {runway}. | pista
+security | the place where your hand luggage is scanned and you are checked for liquids and sharp objects | You can't take bottles of water through {security}. | control de seguridad
+lounge;airline lounge | a comfortable room at an airport where some passengers can wait, eat and drink before a flight | We relaxed in the {lounge} before our flight. | sala VIP
+on time | at the planned moment; not late | Our flight left {on time}. | en horario
+boarding | (of a flight) when passengers are getting on the plane | Flight IB 3166 is now {boarding} at gate 9. | embarcando
+delayed | happening or leaving later than planned | Our flight was {delayed} by two hours. | demorado
+luggage | the bags and suitcases that you take with you when you travel | How much {luggage} are you taking? | equipaje
+boarding pass | a card with your seat number that you must show before you get on a plane | Please have your passport and {boarding pass} ready. | tarjeta de embarque
+hand luggage | small bags that you can take with you into the cabin of a plane | You can only take one piece of {hand luggage}. | equipaje de mano
+liquids;liquid | substances such as water or oil that flow freely and are not solid or gas | You can't take {liquids} over 100 ml in your hand luggage. | líquidos
+sharp objects | things with a point or a fine edge that can cut, such as knives or scissors | {Sharp objects} are not allowed in hand luggage. | objetos punzantes
+scan;scanning;scanned | to pass something through a machine that takes a picture of what is inside | All bags are {scanned} at security. | escanear
+board | to get on a plane, ship, train, etc. | Passengers can now {board} the plane. | embarcar
+land | (of a plane) to come down to the ground after a flight | We {landed} in Madrid at six o'clock. | aterrizar
+collect | to go somewhere and take something that is waiting for you | You can {collect} your suitcases from baggage reclaim. | retirar
+trolley;trolleys | a small cart with wheels used for carrying suitcases at an airport | Take a {trolley} for your suitcases. | carrito (trolleys = carritos)
+illegal goods | things that it is against the law to bring into a country | Customs officers look for {illegal goods}. | mercadería ilegal
+aisle | the passage between rows of seats on a plane | Would you like a window or an {aisle} seat? | pasillo
+row | a line of seats next to each other | We were sitting in the emergency exit {row}. | fila (emergency exit row = fila de salida de emergencia)
+turbulence | sudden, violent movements of air that make a plane shake | Please fasten your seat belts — we're expecting some {turbulence}. | turbulencia
+cabin crew | the people who look after the passengers on a plane | The {cabin crew} will now serve drinks. | tripulación de cabina
+seat belt;seat belts;seatbelt | a strap fixed to your chair in a car or plane that you fasten around your body for safety | Please fasten your {seat belt}. | cinturón de seguridad
+direct flight | a journey by plane with no stops on the way | There's a {direct flight} from London to New York. | vuelo directo
+connecting flight | a second plane that you take to continue your journey after a stop | My first plane was late and I missed my {connecting flight}. | vuelo de conexión (escala)
+long-haul | (of flights) covering a very great distance | I find {long-haul} flights really tiring. | de larga distancia (long-haul flights = vuelos de larga distancia)
+jet lag;jetlag | the feeling of being very tired after flying to a place where the time is very different | I always get {jet lag} when I fly to Asia. | jet lag, desfase horario
+legroom | the amount of space in front of your seat for your knees and feet | There isn't much {legroom} in economy class. | espacio para las piernas
+overhead locker;overhead bin | a cupboard above the seats on a plane where you put your hand luggage | I put my bag in the {overhead locker}. | compartimento de arriba para el equipaje
+travel | to go from one place to another, especially over a long distance (usually a verb) | Do you have to {travel} much in your job? | viajar (normalmente es verbo)
+journey | the act of going from one place to another, especially by car, bus or train | Did you have a good {journey} here? | el trayecto de un lugar a otro
+trip | a visit to a place, including going there, staying and coming back | Have a good {trip}! | el viaje completo: ir, quedarte y volver
+shortly | a little time (before or after something); soon | I fell asleep {shortly} before landing. | poco (shortly before landing = poco antes de aterrizar)
+
+@VB 155 · Adverbs and adverbial phrases
+hard | with a lot of effort | He trains very {hard}. | duro, mucho (con esfuerzo)
+hardly | almost not; only just | I can {hardly} see anything. | casi no, apenas
+late | after the usual or expected time | Some people always arrive {late} for meetings. | tarde
+lately | recently; in the last few weeks or months | I haven't heard from Mike {lately}. | últimamente
+at the end | at the point where something finishes (a time or a place) | {At the end} of a film, I always stay to watch the credits. | al final de (un momento o lugar)
+in the end | finally, after a lot of discussion, problems or changes | I didn't want to go, but {in the end} they persuaded me. | al final, finalmente (después de todo)
+especially | more than usual; particularly | I love all music, but {especially} jazz. | sobre todo, en especial
+specially | for a particular purpose or person | This cake was {specially} made for me. | especialmente (con un fin específico)
+actually | in fact; really (often used to correct a wrong idea) | She looks younger than him, but {actually} she's two years older. | en realidad (¡no significa «actualmente»!)
+at the moment | now; at this time | {At the moment} they're renting a flat. | actualmente, en este momento
+nearly | almost | I've {nearly} finished my book. | casi
+near | at a short distance from something | Excuse me, is there a bank {near} here? | cerca
+yet | until now (used in questions and negative sentences) | Have you found a job {yet}? | ya / todavía (en preguntas y negativas)
+still | continuing until now or until a particular time | He's 35, but he {still} lives with his parents. | todavía (algo que sigue)
+ever | at any time (often used in questions) | Have you {ever} been to the USA? | alguna vez
+even | used to say that something is surprising or extreme | I've been everywhere. I've {even} been to Alaska! | incluso, hasta
+ideally | in a perfect world | {Ideally}, I'd like to live by the sea. | idealmente, en un mundo ideal
+in fact | used to give more detail or to say what is really true | I don't mind. {In fact}, I'd prefer to stay at home. | de hecho, en realidad
+basically | in the most important ways; in simple terms | {Basically}, the problem is that we don't have enough money. | básicamente
+obviously | in a way that is easy to see or understand; clearly | {Obviously}, you'll need a passport to travel abroad. | obviamente
+gradually | slowly, over a period of time; little by little | The weather {gradually} got better. | gradualmente, de a poco
+apparently | according to what you have heard or read | {Apparently}, they're getting married next year. | por lo visto, al parecer
+certainly | without any doubt | It will {certainly} rain tomorrow. | sin duda, definitivamente
+eventually | in the end, especially after a long time or a lot of problems | After three hours, we {eventually} found the hotel. | finalmente, al final (¡no significa «eventualmente»!)
+
+@VB 156 · Weather
+cool | fairly cold, in a pleasant way | It's a bit {cool} this evening — take a jacket. | fresco
+chilly | cold in an unpleasant way | It's {chilly} today — put a jumper on. | frío desagradable, «fresquete»
+below zero | colder than the temperature at which water turns to ice | Last night the temperature fell {below zero}. | bajo cero
+freezing | extremely cold | It's {freezing} outside — it's minus ten! | helado (−10°)
+mild | not very cold; pleasantly warm for the time of year | It's quite {mild} for January. | templado, agradable (no hace frío)
+warm | fairly hot in a pleasant way | It's {warm} enough to sit outside. | cálido, lindo
+boiling;scorching | extremely hot | It's {boiling} today — let's go to the beach. | un calor insoportable (boiling / scorching)
+humid | hot and wet in a way that makes you feel uncomfortable | It's very {humid} in Buenos Aires in summer. | húmedo y caluroso (sin lluvia)
+damp | slightly wet in an unpleasant, cold way | Our flat is cold and {damp} in winter. | húmedo y frío
+drizzling;drizzle | raining lightly with very small drops | It's only {drizzling}, so you don't need an umbrella. | lloviznando
+showers;shower | short periods of rain | There will be {showers} in the afternoon. | chaparrones
+pouring | raining very heavily | It's {pouring} with rain — don't forget your umbrella. | lloviendo a cántaros (pouring with rain)
+breeze | a light, pleasant wind | There's a nice {breeze} by the sea. | una brisa
+mist | a thin cloud of tiny drops of water near the ground, often in the mountains or by the sea | There was {mist} over the lake this morning. | neblina
+fog | a thick cloud of water drops near the ground that makes it difficult to see | The airport closed because of thick {fog}. | niebla
+smog | dirty, unhealthy air over big cities caused by pollution from cars and factories | The {smog} in the city was so bad that schools closed. | smog (lo causa la contaminación)
+heatwave;heat wave | a period of days or weeks when the temperature is much higher than usual | Thousands of people went to the beach during the {heatwave}. | ola de calor
+drought | a long period with little or no rain | The {drought} killed most of the crops. | sequía
+hail | small balls of ice that fall from the sky like rain | The {hail} damaged a lot of cars. | granizo / granizar
+lightning | a sudden bright flash in the sky during a storm, produced by electricity | The tree was hit by {lightning}. | relámpago, rayo
+thunder | the loud noise that you hear after a flash in the sky during a storm | I was woken up by the {thunder}. | trueno / tronar
+blizzard | a storm with a lot of snow and strong winds | We got lost in a {blizzard} in the mountains. | tormenta de nieve, ventisca
+flood | a large amount of water covering an area that is usually dry | The {flood} destroyed hundreds of homes. | inundación / inundar
+hurricane | a violent storm with very strong winds (also called a cyclone or typhoon) | The {hurricane} hit the coast last night. | huracán
+monsoon | the season of heavy rain in South Asia | During the {monsoon}, it rains almost every day. | monzón
+strong | (of wind) moving with great force | {Strong} winds are expected in the north. | fuerte (viento)
+heavy | (of rain or snow) falling in large amounts | There will be {heavy} rain tonight. | fuerte, intensa (lluvia o nieve)
+thick | (of fog) dense and difficult to see through | There's {thick} fog on the motorway. | espesa, cerrada
+icy | (of roads) covered with a frozen layer that makes them slippery | Drive carefully — the roads will be {icy}. | con hielo, congelado
+clear | (of the sky) without clouds | We'll have {clear} skies tonight. | despejado
+bright | (of the weather) with a lot of light from the sun | It'll be {bright} and sunny tomorrow. | luminoso, radiante
+changeable | likely to be different from one hour to the next; not stable | The weather will be {changeable} this week. | variable, inestable
+sunny | (of the weather) bright, with blue skies and few clouds | There will be {sunny} periods in the afternoon. | soleado
+settled | (of the weather) not likely to change; staying the same for some time | The weather will be more {settled} next week. | estable (no va a cambiar)
+
+@VB 157 · Feelings
+miserable | very unhappy | I felt {miserable} — I couldn't go out all weekend because of the rain. | muy triste, desdichado
+homesick | sad because you are living far away from your family and the place where you grew up | When I first studied abroad, I was really {homesick}. | con nostalgia de casa
+disappointed | sad because something was not as good as you hoped, or did not happen | I was {disappointed} when I didn't get the job. | desilusionado
+lonely | unhappy because you have no friends or people to talk to | I felt {lonely} when I moved to a new city. | solo (sentirse solo)
+proud | pleased about something that you or somebody close to you has done | I'm so {proud} of my sister — she won a prize! | orgulloso
+fed up | bored and unhappy, especially with a situation that has lasted too long | I'm {fed up} with doing the same boring job. | harto
+grateful | wanting to thank somebody for something they have done | I'm really {grateful} for your help. | agradecido
+upset | unhappy or worried because something bad has happened | She was very {upset} when her dog disappeared. | mal, angustiado, afectado
+relieved | happy because something unpleasant has stopped or did not happen | I was so {relieved} when I found my passport. | aliviado
+offended | upset because somebody has been rude or has not shown you respect | I was {offended} that they didn't invite me to the wedding. | ofendido
+stunned | so surprised or shocked that you cannot react | We were {stunned} by the news. | atónito, en shock
+devastated | extremely upset and shocked | She was {devastated} when her husband left her. | devastado, destrozado
+thrilled | very happy and excited | I'm {thrilled} you can come to the party! | re contento, emocionadísimo
+delighted | extremely pleased | We're {delighted} with our new flat. | encantado, feliz
+astonished | very surprised; amazed | I was {astonished} at how much he had changed. | asombrado
+desperate | having little hope and ready to do anything to change the situation | After hours lost in the forest, they were getting {desperate}. | desesperado
+overwhelmed | having such strong emotions that you cannot think clearly | I was {overwhelmed} by all the messages of support. | abrumado, desbordado
+bewildered | extremely confused | He looked {bewildered} when I spoke to him in French. | desconcertado, perdido
+horrified | extremely shocked or disgusted | I was {horrified} when I saw the pictures of the accident. | horrorizado
+scared stiff | (informal) extremely frightened; terrified | I'm {scared stiff} of flying. | muerto de miedo
+down | (informal) sad or depressed | I've been feeling a bit {down} since I lost my job. | bajoneado
+shattered | (informal) extremely tired; exhausted | I'm {shattered} — I'm going straight to bed. | hecho pelota, reventado
+gobsmacked | (informal) so surprised that you cannot speak; astonished | I was {gobsmacked} when they told me the price. | con la boca abierta
+sick of | (informal) annoyed and bored with something because it has continued for too long | I'm {sick of} studying — let's go out. | harto de, podrido de
+gutted | (informal) extremely disappointed | He was {gutted} when he missed the penalty. | destrozado, re decepcionado
+beloved | very dear to you; adored | He wrote a song about his {beloved} grandmother. | querido
+stuck | unable to leave a place or to move | I've been {stuck} at home all weekend because of the rain. | encerrado (stuck at home = encerrado en casa)
+abroad | in or to a foreign country | She's studying {abroad} this year. | en el exterior
+for ages | (informal) for a very long time | I've been doing the same job {for ages}. | hace un montón
+put your feet up;put my feet up | to sit or lie down and relax | You've worked hard — go home and {put your feet up}. | tirarse a descansar (put my feet up = tirarme a descansar)
+penalty | in football, a free kick at goal given because a player broke the rules near the goal | He missed the {penalty} in the last minute. | penal (missed the penalty = erró el penal)
+
+@VB 158 · Verbs often confused
+discuss | to talk about something with somebody, especially in order to decide something | I need to {discuss} the problem with my boss. | hablar / debatir sobre algo
+argue | to speak angrily to somebody because you disagree | I often {argue} with my parents about money. | discutir, pelearse
+realize;realise | to become aware of something or understand it | I didn't {realize} you were so unhappy. | darse cuenta
+notice | to see or become aware of something, often by chance | I didn't {notice} that Karen had changed her hair. | notar, percatarse
+avoid | to keep away from somebody or something, or to try not to do something | Jack always tries to {avoid} arguing with me. | evitar
+prevent | to stop something from happening or somebody from doing something | My dad can't {prevent} me from seeing my friends. | impedir
+lend;lent | to give something to somebody for a short time, expecting to get it again later | When are you going to pay me the £50 that I {lent} you? | prestar (vos das)
+borrow | to take and use something that belongs to somebody else and return it later | Could I {borrow} your car tonight? | pedir prestado (vos recibís)
+mind | to be annoyed or worried by something | My parents don't {mind} if I stay out late. | molestarle a alguien, importarle
+matter | to be important | It doesn't {matter} if we're five minutes late. | importar (ser importante)
+remind | to make somebody think of something they must do or must not forget | Can you {remind} me to call my mum? | recordarle algo a alguien
+remember | to keep something in your mind or bring it back into your mind; not to forget | {Remember} to turn off the lights. | acordarse, no olvidarse
+expect | to think or believe that something will happen | I {expect} that Daniel will forget my birthday again. | esperar (creer que va a pasar)
+wait | to stay where you are or not do something until something happens | We'll have to {wait} half an hour for the next train. | esperar (que pase el tiempo)
+wish | to want something that is impossible or unlikely to happen | I {wish} I was a bit taller! | desear (algo irreal)
+hope | to want something to happen and think that it is possible | I {hope} that you can come on Friday. | esperar, tener esperanza
+win;won | to be the best or first in a game, competition, etc.; to get a prize | Arsenal {won} the match 5–2. | ganar (un partido, un premio)
+beat | to defeat somebody in a game or competition | Arsenal {beat} Manchester United 5–2. | ganarle a alguien
+refuse | to say that you will not do something | Tom always {refuses} to discuss the problem. | negarse a hacer algo
+deny | to say that something is not true | Tom always {denies} that he has a problem. | negar (que algo es cierto)
+rise;rose;risen | to go up or increase (it has no object) | The cost of living is going to {rise}. | subir (solo, sin objeto)
+raise;raised | to lift something to a higher position, or to increase something | It's hard not to {raise} your voice when you're angry. | levantar, subir algo
+lie;lay;lain | to be or put yourself in a flat position, e.g. on a bed | Go and {lie} on the bed if you're tired. | acostarse, estar acostado
+lay;laid | to put somebody or something down carefully in a flat position | I usually {lay} my baby on the bed to change her. | poner, apoyar o acostar algo / a alguien
+rob | to take money or property from a person or place illegally | They were planning to {rob} the bank. | robar (a una persona o lugar)
+steal;stole;stolen | to take something that belongs to somebody else without permission | Don't leave your bike there — somebody might {steal} it. | robar (una cosa)
+warn | to tell somebody about a possible danger or problem | I should {warn} you that Liam doesn't always tell the truth. | advertir
+advise | to tell somebody what you think they should do | My teacher is going to {advise} me what subjects to study. | aconsejar
+
+@VB 159 · The body
+ankle | the joint between your foot and your leg | I twisted my {ankle} playing tennis. | tobillo
+calf;calves | the back part of your leg between the knee and the ankle | I've got a pain in my left {calf}. | pantorrilla (pl calves)
+heel | the back part of your foot | These new shoes have hurt my {heel}. | talón
+knee | the joint in the middle of your leg where it bends | I fell and hurt my {knee}. | rodilla
+elbow | the joint in the middle of your arm where it bends | He hit me with his {elbow}. | codo
+fist | your hand when it is tightly closed | He banged his {fist} on the table. | puño
+nails;nail | the hard parts at the ends of your fingers and toes | Stop biting your {nails}! | uñas
+palm | the inside part of your hand | She held the coin in the {palm} of her hand. | palma
+wrist | the joint between your hand and your arm | She wears a watch on her left {wrist}. | muñeca
+bottom | the part of your body that you sit on | I slipped and fell on my {bottom}. | cola, trasero
+chest | the top front part of your body, between your neck and your stomach | He felt a sharp pain in his {chest}. | pecho
+hip | the area at the side of your body between the top of your leg and your waist | She broke her {hip} when she fell. | cadera
+thigh | the top part of your leg, above the knee | He's injured a muscle in his {thigh}. | muslo
+waist | the middle part of your body above your hips, where you wear a belt | These trousers are too big round the {waist}. | cintura
+brain | the organ inside your head that controls thinking and feeling | The {brain} controls everything we do. | cerebro
+heart | the organ in your chest that sends blood around your body | My {heart} was beating fast. | corazón
+kidneys;kidney | the two organs that remove waste from your blood and produce urine | His {kidneys} aren't working properly. | riñones
+liver | a large organ that cleans your blood | Drinking too much alcohol damages your {liver}. | hígado
+lungs;lung | the two organs in your chest that you use for breathing | Smoking damages your {lungs}. | pulmones
+bite | to cut into something with your teeth: ~ your nails | Stop {biting} your nails! | morder (bite your nails = morderse las uñas)
+blow | to push air out through your nose to clear it: ~ your nose | Here's a tissue — {blow} your nose. | sonarse (blow your nose = sonarse la nariz)
+brush | to clean or tidy your teeth or hair with a tool that has a lot of short stiff hairs | {Brush} your teeth before you go to bed. | cepillarse (los dientes / el pelo)
+comb | to make your hair tidy with a flat piece of plastic or metal with a row of thin teeth | I {comb} my hair every morning. | peinarse
+fold | to cross your arms over your chest: ~ your arms | He {folded} his arms and waited. | cruzar (fold your arms = cruzarse de brazos)
+hold | to have something in your hand: ~ somebody's hand | {Hold} my hand when we cross the road. | tomar (hold somebody's hand = tomar a alguien de la mano)
+touch | to put your hand or fingers on something: ~ your toes | Can you {touch} your toes without bending your knees? | tocar (touch your toes = tocarse la punta de los pies)
+suck | to keep something in your mouth and pull on it with your lips and tongue: ~ your thumb | My little brother still {sucks} his thumb. | chupar (suck your thumb = chuparse el dedo)
+shake | to move something quickly from side to side or up and down: ~ hands / ~ your head | They {shook} hands and sat down. | dar (la mano) / negar (con la cabeza)
+shrug | to raise your shoulders quickly to show that you don't know or don't care | When I asked him where she was, he just {shrugged} his shoulders. | encogerse (de hombros)
+raise | to lift something to a higher position: ~ your eyebrows (to show surprise) | She {raised} her eyebrows in surprise. | levantar (raise your eyebrows = levantar las cejas)
+wink | to close one eye quickly as a private signal to somebody | He {winked} at me across the room. | guiñar el ojo
+chew | to bite food into small pieces in your mouth so that it is easy to swallow | {Chew} your food properly before you swallow it. | masticar
+hug | to put your arms around somebody and hold them tightly | She {hugged} her son at the airport. | abrazar
+scratch | to rub your skin with your nails, usually because it itches | Try not to {scratch} the mosquito bites. | rascar(se)
+wave | to move your hand from side to side to say hello or goodbye | She {waved} goodbye from the train. | saludar con la mano
+kneel;knelt;kneeled | to rest your body on the bent joints in the middle of your legs, e.g. to pray | He {knelt} down to tie his shoelaces. | arrodillarse
+frown | to bring your eyebrows together because you are angry, worried or concentrating | Why are you {frowning}? What's wrong? | fruncir el ceño
+stare | to look at somebody or something for a long time without moving your eyes | It's rude to {stare} at people. | mirar fijamente
+yawn | to open your mouth wide and breathe in deeply because you are tired or bored | The film was so boring that everyone was {yawning}. | bostezar
+stretch | to make your arms, legs or body as long as possible | I always {stretch} my arms when I wake up. | estirarse
+point | to show where something is by holding out your finger towards it | It's rude to {point} at people. | señalar
+
+@VB 160 · Crime and punishment
+blackmail | the crime of asking somebody for money by threatening to tell their secrets | The politician was the victim of {blackmail}. | chantaje, extorsión (blackmailer · to blackmail)
+bribery | the crime of giving somebody money or a present so that they will help you dishonestly | The minister was accused of {bribery}. | soborno (to bribe)
+burglary | the crime of entering a building, usually a house, illegally in order to steal things | There was a {burglary} at my neighbour's house while they were on holiday. | robo en una casa sin gente (burglar · break in / burgle)
+drug dealing | the crime of buying and selling illegal substances such as cocaine | He went to prison for {drug dealing}. | venta de drogas (drug dealer · sell drugs)
+fraud | the crime of deceiving people in order to get money | She was charged with {fraud}. | fraude, estafa (fraudster · commit fraud)
+hacking | the crime of getting into somebody else's computer system without permission | The bank was the victim of {hacking}. | hackeo (hacker · hack into)
+hijacking | the crime of taking control of a plane or other vehicle by force | The {hijacking} of the plane lasted six hours. | secuestro de avión o vehículo (hijacker · hijack)
+kidnapping | the crime of taking somebody away by force and keeping them prisoner, often to get money | The {kidnapping} of the businessman shocked the country. | secuestro de persona (kidnapper · kidnap)
+mugging | the crime of attacking somebody in the street and stealing their money | He was the victim of a {mugging} last night. | asalto en la calle (mugger · mug)
+murder | the crime of killing somebody deliberately | He was found guilty of {murder}. | asesinato (murderer · murder)
+rape | the crime of forcing somebody to have sex | He was sent to prison for {rape}. | violación (rapist · rape)
+robbery | the crime of stealing money or things from a bank, shop or person, often using violence | There was an armed {robbery} at the bank. | robo con amenaza o violencia (robber · rob)
+smuggling | the crime of taking goods into or out of a country illegally | He was arrested for {smuggling} cigarettes. | contrabando (smuggler · smuggle)
+stalking | the crime of following and watching somebody over a long period in a way that frightens them | {Stalking} is now a serious crime in many countries. | acoso, acecho (stalker · stalk)
+terrorism | the use of violence, such as bombs, for political reasons | The government is fighting against {terrorism}. | terrorismo (terrorist · set off bombs)
+theft | the crime of stealing something | Car {theft} is very common in this area. | hurto, robo (thief · steal)
+vandalism | the crime of deliberately damaging public property | The bus shelter was destroyed by {vandalism}. | vandalismo (vandal · vandalize)
+commit;committed | to do something illegal or wrong | They {committed} a crime. | cometer (committed = cometieron)
+investigate;investigated | to try to find out the facts about a crime | The police {investigated} the crime. | investigar (investigated = investigó)
+catch;caught | to find and stop a person who is trying to escape | They were {caught} driving to the airport. | atrapar (caught = los atraparon)
+arrest;arrested | (of the police) to take somebody to a police station because they may have broken the law | They were {arrested} and taken to the police station. | detener, arrestar
+question;questioned | to ask somebody a lot of things in order to get information, especially formally | The police {questioned} them for hours. | interrogar (questioned = interrogó)
+charge;charged | (of the police) to accuse somebody formally of a crime: ~ somebody with | They were {charged} with armed robbery. | imputar, acusar formalmente (charged with = imputados de)
+court | the place where legal cases are heard and judged | The two men appeared in {court} last week. | tribunal, juzgado
+accuse;accused | to say that somebody has done something wrong or illegal: ~ somebody of | They were {accused} of armed robbery. | acusar (accused of = acusados de)
+witness;witnesses | a person who sees a crime and tells the police or a court about it | A {witness} told the court that she had seen the men. | testigo (witnesses = testigos)
+jury | a group of ordinary people who decide in a court if somebody is guilty or not | The {jury} heard all the evidence. | jurado
+evidence | facts, objects or statements that help to show in a court whether something is true | The jury heard all the {evidence}. | pruebas
+verdict | the decision in a court about whether somebody is guilty or not | The jury reached their {verdict} after two days. | veredicto
+proof | facts or information that show clearly that something is true | There was no {proof} that Adam had committed the crime. | prueba (concluyente)
+acquit;acquitted | to decide officially in a court that somebody did not do the crime | He was {acquitted} and allowed to go free. | absolver (acquitted = absuelto)
+guilty | responsible for doing something illegal (≠ innocent) | Carl was found {guilty}. | culpable
+innocent | not having done the crime that you are accused of | He says he's {innocent}, but the police don't believe him. | inocente
+judge | the person in charge of a court who decides the punishment | The {judge} decided what Carl's punishment should be. | juez
+punishment | something that is done to somebody because they have broken the law | The judge decided what Carl's {punishment} should be. | castigo, pena
+sentence;sentenced | (of a judge) to say officially what somebody's punishment will be | The judge {sentenced} him to ten years in prison. | condenar (sentenced = condenó)
+armed robbery | the crime of stealing from a place or a person using a gun or a knife | They were charged with {armed robbery}. | robo a mano armada
+fingerprints;fingerprint | the marks of lines and curves that the tips of your hand leave on things you touch | The police found his {fingerprints} on the gun. | huellas digitales
+prison;jail;gaol | a building where criminals are kept as a punishment | He was sent to {prison} for ten years. | cárcel (prison / jail)
+
+@VB 161 · The media
+back;backs | (in headlines) to support | PM {backs} new plan to cut taxes. | respaldar, apoyar
+axe;axed | (in headlines) to cut or end something, such as jobs or a service | 500 jobs {axed} at car factory. | recortar, eliminar
+hit | (in headlines) to affect badly | Stock market {hit} by fears of recession. | golpear, afectar
+bid;bids | (in headlines) to try to get or achieve something | Spain {bids} to avenge last year's defeat. | intentar, ir por
+clash | (in headlines) to disagree or argue angrily | Chancellor and PM {clash} over taxes. | chocar, enfrentarse
+vow;vows | (in headlines) to promise seriously | Police {vow} to catch the killer. | jurar, prometer
+quiz | (in headlines) to question somebody, especially the police | Police {quiz} man about missing girl. | interrogar
+row;rows | (in headlines) to argue noisily | Film star {rows} with co-star over money. | pelearse, discutir
+critic | a person who writes about films, books, plays, etc. and says what is good or bad about them | The film {critic} gave it five stars. | crítico
+commentator | a person who describes a sports event live on TV or radio | The football {commentator} got very excited. | comentarista (deportivo)
+reporter | a person who collects and writes news for a newspaper, TV, etc. | A {reporter} interviewed people outside the court. | periodista, cronista
+editor | the person in charge of a newspaper or magazine who decides what goes in it | The {editor} decided to put the story on the front page. | director / editor (de diario o revista)
+presenter | a person who introduces a TV or radio programme | She's a {presenter} on a children's TV show. | presentador, conductor
+freelance journalist | a writer for newspapers or magazines who is not employed by one company but sells work to several | As a {freelance journalist}, she writes for several magazines. | periodista independiente
+newsreader | a person whose job is to present the main stories of the day on TV or radio | The {newsreader} announced the death of the president. | locutor de noticias
+paparazzi | photographers who follow famous people to take pictures of them | The {paparazzi} were waiting outside the hotel. | paparazzi (pl)
+agony aunt | a person who writes in a magazine, giving readers advice about their personal problems | She wrote to an {agony aunt} for advice about her boyfriend. | consejera sentimental (columna de cartas)
+sensational | (of news) presented in a way that is meant to shock and is more exciting than the truth | Some papers publish {sensational} stories to sell more copies. | sensacionalista
+biased | unfairly preferring one person, group or political party to another | That newspaper is very {biased} — it always supports the government. | tendencioso, parcial
+objective | based on facts and not on personal feelings or opinions | Try to write an {objective} report. | objetivo
+accurate | correct and true in every detail | The article was completely {accurate}. | preciso, fiel
+censored | (of news, films, etc.) with parts removed because they are considered offensive or politically dangerous | The news is {censored} by the government. | censurado
+tabloid;tabloids | a newspaper with small pages, a lot of photos and short, sensational stories about famous people | The story was on the front page of every {tabloid}. | diario sensacionalista de formato chico
+chancellor | (in the UK) the government minister responsible for the economy and taxes | The {Chancellor} announced new taxes. | ministro de Economía
+stock market | the place where shares in companies are bought and sold | Prices on the {stock market} fell sharply. | bolsa
+avenge | to punish somebody for something bad they did to you; ~ a defeat = win after losing before | Spain bids to {avenge} last year's defeat. | vengar (avenge defeat = vengar la derrota)
+trial | the process in a court of deciding if somebody is guilty of a crime | The {trial} lasted three weeks. | juicio
+co-star | an actor who appears in the same film or play as another important actor | She fell in love with her {co-star}. | coprotagonista
+unfair pay | a salary that is lower than it should be, or lower than other people get for the same work | Actress rows with studio over {unfair pay}. | sueldo injusto
+
+@VB 162 · Business
+market | to sell a product, for example by advertising it | The company {markets} its products to young people. | comercializar
+launch;launched | to introduce a new product to the public | They {launched} a new phone last month. | lanzar (un producto)
+merge;merged | (of two companies) to join together to form one | The two banks {merged} in 2010. | fusionarse
+manufacture;manufactured | to make goods in large amounts in a factory | The company {manufactures} cars and lorries. | fabricar
+produce;produced | to make or grow something, especially to sell it | France {produces} a lot of wine. | producir
+export;exported | to sell goods to another country | Argentina {exports} beef all over the world. | exportar
+become;became | to start to be something | The company {became} the market leader. | convertirse en
+expand | to grow bigger, for example by opening new shops or offices | We want to {expand} into Asia next year. | expandirse
+import;imported | to buy goods from another country and bring them into your country | We {import} most of our oil. | importar
+grow;grows | (of a business or the economy) to get bigger | The economy {grows} during a boom. | crecer
+drop | (of prices, numbers or standards) to fall | During a recession, living standards {drop}. | caer, bajar
+product | something that is made to be sold | They launched a new {product} last year. | producto (a new product = producto nuevo)
+flop | a film, product, etc. that is not successful | The new phone was a complete {flop}. | fracaso
+market leader | the company or brand that sells the most in a particular area | Apple became the {market leader}. | líder del mercado
+chain | a group of shops, hotels, etc. owned by the same company | He owns a {chain} of coffee shops. | cadena
+head office | the main building of a company, where the managers work | The company's {head office} is in London. | casa central
+branch;branches | one of the local shops or offices that belong to a larger company | The bank has a {branch} in every town. | sucursal (branches = sucursales)
+small business | a company that is not large and has only a few employees | Many banks offer loans to people who want to set up a {small business}. | pyme
+boom | a period when the economy grows quickly and people earn a lot | There was a {boom} in house prices. | auge
+recession | a period when a country's economy is doing badly and there is less trade | Many companies closed during the {recession}. | recesión
+living standards;standard of living | the amount of money and comfort that people have | {Living standards} drop during a recession. | nivel de vida
+do business | to buy and sell things with somebody; to trade | We {do business} with companies all over the world. | hacer negocios (con)
+do a job | to carry out a piece of work | They always {do a} good {job}. | hacer un trabajo
+do market research | to collect information about what people want to buy and why | Before launching the product, we need to {do market research}. | hacer un estudio de mercado
+do well | to be successful | I hope you {do well} in your exams. | irle bien
+do badly | to be unsuccessful; to get poor results | Many shops {do badly} during a recession. | irle mal
+make a deal | to reach an agreement in business | Let's {make a deal} — I'll pay half now and half next month. | cerrar un trato
+make a decision | to choose what to do after thinking about it | I need to {make a decision} by Friday. | tomar una decisión
+make a loss | to spend more money than you earn in a business | If we don't sell more, we'll {make a loss} this year. | tener pérdidas
+make a profit | to earn more money than you spend in a business | The shop started to {make a profit} after two years. | tener ganancias
+make money | to earn a lot of cash | You can {make money} selling old clothes online. | ganar plata
+make redundant;make somebody redundant | to dismiss somebody from their job because the company doesn't need them any more | The factory had to {make} 200 workers {redundant}. | despedir (por recorte de personal)
+any other business | the last part of a meeting, when people can discuss things that are not on the agenda | Finally, is there {any other business}? | otros temas (al final de una reunión)
+mean business | to be serious about what you say or plan to do | I {mean business} — if you're late again, you're fired. | ir en serio
+it's none of your business;none of your business | used to tell somebody rudely that something is private and you won't tell them | How much do I earn? {It's none of your business}! | no es asunto tuyo
+mind your own business | used to tell somebody rudely not to ask about or get involved in your private life | Stop asking me questions and {mind your own business}! | no te metas, ocupate de lo tuyo
+unfinished business | things that still need to be dealt with or discussed | I have some {unfinished business} to sort out before I leave. | asuntos pendientes
+mix business with pleasure | to combine work and enjoyment, e.g. by having fun on a work trip | I never {mix business with pleasure}. | mezclar trabajo con placer
+
+@VB 163 · Word building
+overcrowded | with too many people in it | The city centre is {overcrowded} at weekends. | superpoblado, abarrotado
+megacities;megacity | enormous urban areas with a population of more than ten million | Tokyo and Delhi are {megacities}. | megaciudades
+underdeveloped | (of a country) poor and without much modern industry | Many {underdeveloped} countries need better schools and hospitals. | subdesarrollado
+multicultural | including people of many different races, religions and traditions | London is a very {multicultural} city. | multicultural
+subway | (AmE) an underground train system in a city (in British English, the Tube) | The quickest way to get around New York is on the {subway}. | subte
+bilingual | having two mother tongues; able to speak both of them equally well | Their children are {bilingual} in Spanish and English. | bilingüe
+monorail | a train system in which the train runs on one single track, often high above the street | You can take the {monorail} from the airport to the city. | monorriel
+autopilot | a system in a plane that controls it by itself, so that the person flying it can rest | The plane was on {autopilot} for most of the flight. | piloto automático
+antisocial | behaving in a way that is harmful to other people, or not enjoying the company of others | Playing loud music late at night is {antisocial}. | antisocial
+misunderstood;misunderstand | interpreted wrongly; got the wrong idea about | I'm sorry, I {misunderstood} what you said. | entendí mal
+postgraduate | (of studies) done after finishing a first university degree | She's doing a {postgraduate} course in Law. | de posgrado
+homeless | having no place to live | There are a lot of {homeless} people in big cities. | sin techo
+hopeless | without any chance of success or improvement | The situation seemed {hopeless}. | sin esperanza
+careful | giving a lot of attention to what you are doing so that you avoid problems or danger | Be {careful} — the roads are icy. | cuidadoso
+useful | helpful for doing or achieving something | This app is really {useful} for learning vocabulary. | útil
+bulletproof | able to stop shots fired from a gun | The president's car has {bulletproof} windows. | antibalas
+waterproof | not letting rain or liquid pass through | You'll need a {waterproof} jacket. | impermeable
+unbreakable | impossible to damage or smash | These glasses are made of {unbreakable} plastic. | irrompible
+drinkable | (of water) clean enough to be safe to swallow | Is the tap water {drinkable} here? | potable
+accommodation | a place to live or stay, such as a hotel room or a flat | The price includes flights and {accommodation}. | alojamiento
+intention | a plan or something that you want to do | I have no {intention} of leaving. | intención
+reduction | the act of making something smaller in size or amount | There's been a {reduction} in crime this year. | reducción
+employment | having a paid job; work | It's hard to find {employment} in this area. | empleo
+entertainment | films, music, shows, etc. that people enjoy | There's a lot of {entertainment} for children at the hotel. | entretenimiento
+excitement | the feeling of being very happy and enthusiastic about something | The children couldn't sleep because of the {excitement}. | emoción
+government | the group of people who control a country | The {government} has promised to cut taxes. | gobierno
+improvement | the process of becoming better, or a change that makes something better | There's been a big {improvement} in your English. | mejora
+friendliness | the quality of being kind and pleasant to other people | I was surprised by the {friendliness} of the local people. | simpatía
+loneliness | the state of being unhappy because you have nobody to talk to or spend time with | Many old people suffer from {loneliness}. | soledad
+ugliness | the quality of being unpleasant to look at | I was shocked by the {ugliness} of the new buildings. | fealdad
+weakness | lack of strength or power; a fault | Chocolate is my {weakness}. | debilidad
+absence | the fact of not being somewhere where you should be | Nobody noticed his {absence}. | ausencia
+distance | the amount of space between two places | What's the {distance} from here to the station? | distancia
+ignorance | a lack of knowledge or information about something | His rude comments show his {ignorance}. | ignorancia
+violence | behaviour that is intended to hurt or kill people | There's too much {violence} on TV. | violencia
+alcoholism | an illness in which a person is addicted to drinks such as wine, beer and whisky | He's been treated for {alcoholism}. | alcoholismo
+racism | the unfair treatment of people because they belong to a different ethnic group | We must fight against {racism}. | racismo
+vandalism | the act of deliberately breaking or damaging things that belong to other people | The school was closed after an act of {vandalism}. | vandalismo
+brotherhood | a feeling of friendship and support between people | The festival celebrates peace and {brotherhood}. | hermandad
+childhood | the time of your life before you are an adult | I had a very happy {childhood}. | infancia
+pollution | dirty or harmful substances in the air, water or soil | Air {pollution} is a big problem in big cities. | contaminación (pollute → pollution)
+expectation;expectations | a belief that something will happen or that somebody will do something | The results were beyond {expectation}. | expectativa (expect → expectation)
+development | the process of growing, improving or creating something new | The {development} of new technology is very fast. | desarrollo (develop → development)
+coldness | a lack of warmth, in temperature or in the way somebody behaves | I was hurt by the {coldness} of her reply. | frialdad (cold → coldness)
+convenience | the quality of being useful, easy or suitable for somebody | I love the {convenience} of shopping online. | comodidad, conveniencia (convenient → convenience)
+neighbourhood;neighborhood | an area of a town and the people who live there | We live in a quiet {neighbourhood}. | barrio (neighbour → neighbourhood)
+modernism | a style in art, architecture and literature of the early 20th century that broke with traditional ideas | {Modernism} changed the way buildings were designed. | modernismo (modern → modernism)
+loss | the fact of no longer having something, or having less of it | The {loss} of his job was a shock. | pérdida (lose → loss)
+death | the moment when life ends | Her {death} was a great shock to everyone. | muerte (die → death)
+success | the achievement of something that you have been trying to do | The party was a great {success}. | éxito (succeed → success)
+thought | an idea or an opinion | That's an interesting {thought}. | pensamiento (think → thought)
+belief | a strong feeling that something is true or exists | It's my {belief} that everyone deserves a second chance. | creencia (believe → belief)
+heat | high temperature; warmth | I can't stand the {heat} in summer. | calor (hot → heat)
+strength | physical power; the ability to lift heavy things | He doesn't have the {strength} to lift that box. | fuerza (strong → strength)
+hunger | the feeling that you need to eat | Millions of people suffer from {hunger}. | hambre (hungry → hunger)
+height | how tall a person is, or how far something is from the ground | What's your {height}? | altura (high → height)
+width | how far something is from one side to the other | What's the {width} of the room? | ancho (wide → width)
+choice | the act of picking one thing from several possibilities; a decision | You have no {choice} — you have to do it. | elección (choose → choice)
+poverty | the state of having very little money | Millions of people live in {poverty}. | pobreza (poor → poverty)

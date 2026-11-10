@@ -1,0 +1,176 @@
+# Phrasal Verbs. Format: answer;alts | type (S, I, -, S-, -S, x) | definition | example | spanish | codes
+# codes: V152/V153/V154/V162 = also in Vocabulary Bank (unit + source); P153 = unit only; TK, TE, GB = lessons; AZ:X = A–Z letter
+@PV A–Z · B
+back up | S | to support an opinion or claim with facts, numbers or examples | Using numbers, statistics, and examples to {back up} opinions makes people sound more convincing. | respaldar, fundamentar (una opinión) |
+break down | - | (of a machine or vehicle) to stop working | My dishwasher {broke down} after two months. | romperse, descomponerse (máquina, auto) |
+break in | - | to enter a building illegally, usually by force, in order to steal | Most burglars wait for a house to be empty before they {break in}. | entrar a robar (a una casa) |
+break into | I | to enter a place illegally, often by force, in order to steal something | What two things influence a burglar to choose a house to {break into}? | entrar a robar a (un lugar) |
+break off | S | to end something such as a relationship or an engagement suddenly | She's just {broken off} a relationship. | cortar, terminar (una relación) |
+break out | - | (of something bad such as a war, a fire or panic) to start suddenly | Immediately, panic {broke out} and passengers were screaming. | estallar, desatarse |
+break up;break up with | - | (of a couple) to stop being together as partners (~ with somebody) | I thought they'd {broken up}, but apparently, they're together again. | separarse, cortar (una pareja) |
+bring back | S | to return something to the place where it came from | You should have {brought} it {back} sooner. | devolver, traer de vuelta |
+bring up | S | to start talking about a subject; to mention something | Don't {bring up} old arguments. | sacar un tema, mencionar |
+build up | S | to increase or develop little by little | You just get into it and then progressively {build up}. | ir aumentando, desarrollar de a poco |
+bump into | I | to meet somebody you know by chance | I {bumped into} an old friend who had been on the same flight. | cruzarse de casualidad con alguien | V154
+@PV A–Z · C
+call in | - | to visit a place or a person for a short time; to ask an expert or organization to come and help | The army were {called in} to restore law and order. | pasar (de visita) / llamar a alguien para que intervenga |
+call off | S | to cancel an event or an arrangement | They've decided to {call off} the wedding. | cancelar, suspender | GB
+calm down | S | to become, or make somebody become, less angry, upset or excited | I'd rather talk about this tomorrow, when we've both {calmed down}. | calmarse / calmar a alguien |
+carry on | - | to continue doing something (~ + -ing / ~ with) | Ignore it and {carry on} reading. | seguir, continuar | GB
+carry out | S | to do or complete a task, an experiment, etc. | Scientists {carry out} experiments in a laboratory. | llevar a cabo, realizar |
+catch out | S | to discover that somebody has lied or made a mistake | You shouldn't lie because you get {caught out}. | pescar, agarrar a alguien (en una mentira) |
+catch up on | I | to spend time doing something that you have not had time to do until now | I've been {catching up on} my emails. | ponerse al día con |
+check in | - | to show your ticket at an airport, or give your name at a hotel, so that you can fly or get your room | I {checked in} online the day before I was going to fly. | hacer el check-in | V154
+close down | - | (of a business) to stop operating permanently | There used to be a cinema in our village, but it {closed down} three years ago. | cerrar (definitivamente) | V162
+come across | I | to find or meet something or somebody by chance | As you walk through the forest, you {come across} an animal. | encontrarse con algo (por casualidad) |
+come along | - | to appear or arrive, especially by chance | When a real problem {comes along}, you won't be prepared to face it. | aparecer, surgir |
+come back | - | to return to a place | He {came back} two inches taller. | volver |
+come out | - | to leave a place; to go outside | Only two of them would {come out} alive. | salir |
+come round | - | to become conscious again after fainting | When I {came round} I was lying on the floor. | volver en sí | V152
+come up | - | to appear or be mentioned | The first answers that {come up} in searches are not always the best. | aparecer, surgir |
+come up with | I | to think of an idea, a plan or an answer | What theories did people {come up with}? | ocurrírsele, idear |
+cross out | S | to draw a line through a word, for example because it is wrong | {Cross out} the 'silent' consonant in these words. | tachar |
+cut off | S | to stop the supply of something, such as electricity or the internet | Wait until the wi-fi gets {cut off}. | cortar (un servicio) |
+@PV A–Z · D
+deal with | I | to take action to solve a problem or handle a situation | We generate billions of tons of rubbish, and the way we {deal with} it is a problem. | lidiar con, ocuparse de |
+dress up | - | to put on smart clothes for a special occasion, or a costume | I'm going to {dress up} tonight. | arreglarse, vestirse elegante / disfrazarse | V153
+drop off | S | to take somebody somewhere in a car and leave them there | My husband {dropped} me {off} at the airport. | dejar a alguien (en auto) | V154
+@PV A–Z · E
+eat in | - | to have a meal at home rather than in a restaurant | I'd rather {eat in} than go out tonight. | comer en casa |
+eat out | - | to have a meal in a restaurant | People from Spain enjoy {eating out}. | comer afuera |
+end up | - | to finally be in a place or situation, or doing something, without planning it (+ -ing) | Lindy {ended up} buying a car after only five months. | terminar (haciendo algo), acabar |
+@PV A–Z · F
+fall for | I | to be tricked into believing something that is not true | Why do you think we keep {falling for} these techniques? | caer en (un engaño) |
+fall off | I | to drop to the ground from something, such as a bike or a horse | She had {fallen off} her bike that morning. | caerse de |
+fall out | - | to drop from inside something; (~ with somebody) to argue and stop being friends | Put some pillows on the floor, in case the child {falls out}. | caerse (de adentro) · fall out with = pelearse con |
+fall over | - | to lose your balance and drop to the ground | I always {fall over} them. | caerse (al piso), tropezarse |
+fill in | S | to write the necessary information on a form | I {filled in} the immigration form for the US. | completar (un formulario) | V154
+fill up;fill up with | S | to put petrol in a car's tank until there is no more space (~ with) | Remember to {fill up} with petrol when you borrow my car. | llenar (el tanque) |
+find out | S | to discover a fact or a piece of information | Do our quiz to {find out}. | averiguar, enterarse |
+@PV A–Z · G
+get around | - | to move or travel from place to place in a town or area | The quickest way to {get around} New York is on the subway. | moverse, desplazarse (por una ciudad) |
+get back | - | to return, especially home | When I {got back} to San Francisco, everything had changed. | volver |
+get down to business;get down to | I | to start dealing with something seriously, especially work | Let's {get down to business} right away. | ponerse a trabajar, ir al grano | V162
+get into | I | to enter something; to become interested in an activity | You just {get into} it and then progressively build up. | entrar en · engancharse con algo |
+get off | I | to leave a bus, train, plane, etc. | When I {got off} the plane, I felt exhausted after the long flight. | bajarse (avión, tren, colectivo) | V154
+get on | I | to enter a bus, train, plane, etc. | As soon as I {got on} the plane, I put my bag in the overhead locker. | subirse (avión, tren, colectivo) | V154
+get on with;get on well with | I | to have a friendly relationship with somebody | Why do you {get on} well {with} each other? | llevarse bien con |
+get out of;get out | I | to leave a place, especially quickly | My best option was to {get out of} the house. | salir (de) |
+get over | I | to recover from an illness or an unpleasant experience | It often takes a long time to {get over} flu. | recuperarse de | V152
+get rid of | I | to throw away or remove something that you do not want | She had an operation to {get rid of} her crow's feet. | deshacerse de, sacarse de encima |
+get up | - | to leave your bed after sleeping | The earlier I {get up}, the more I can do. | levantarse | P153
+give away | S | to reveal a secret or the truth about somebody; to offer something for free | Something a 'fake' passenger might say would {give} them {away}. | delatar · regalar |
+give back | S | to return something to its owner | Please {give back} the books by Friday. | devolver |
+give off | I | to produce and send out a smell, gas, heat, etc. | They {give off} dry particles which irritate our eyes. | despedir, emitir (olor, gas, partículas) |
+give up | S | to stop doing something that you do regularly (+ -ing); to stop trying | I think you should {give up} drinking coffee after dinner. | dejar de (hacer algo) · rendirse | GB
+go ahead | - | used to give somebody permission to start or continue | "Can I ask you something?" "Sure, {go ahead}." | adelante, seguí (dar permiso) |
+go away | - | to leave a place or a person; to disappear | She hid and hoped that the intruder would {go away}. | irse, desaparecer |
+go back | - | to return to a place | It was such a great hotel that we want to {go back} there. | volver |
+go down | - | to become lower; to decrease | If his temperature hasn't {gone down} by tomorrow, call the doctor. | bajar |
+go off | - | (of electricity, a service, etc.) to stop working; (of an alarm) to ring | The internet's {gone off}. | cortarse, apagarse · sonar (una alarma) |
+go on | - | to continue; to happen | We all know what's {going on}. | seguir · pasar, ocurrir |
+go out | - | to leave your home to do something for fun | Would you rather stay in or {go out} tonight? | salir |
+go over;go over to | - | to move towards somebody or something (~ to) | I {went over} to see if she was OK. | acercarse a |
+go through | I | to experience something difficult; to examine something carefully | You cannot {go through} a single day without having an impact on the world. | pasar por (una experiencia) · repasar |
+go up | - | to increase; to rise | Her follower count had {gone up} to 24. | subir · go up to sb = acercarse a alguien |
+go with | I | (of clothes or colours) to look good together with something | That tie doesn't really {go with} your shirt. | combinar con (ropa) | V153
+grow up | - | to develop from a child into an adult | That's the house where Harry {grew up}. | crecer, criarse |
+@PV A–Z · H
+hand over | S | to give something to somebody, often because they ask or force you | Fortunately, Constance didn't {hand over} any money. | entregar |
+hang up | S | to put clothes on a hook or in a wardrobe; to end a phone call | Please {hang up} your coat. | colgar (ropa) · cortar (el teléfono) | V153
+hold out | S | to put your hand, or something in your hand, forward towards somebody | A man {held out} a knife and made me give him my wallet. | extender, mostrar (algo en la mano) |
+hurry up | - | to do something more quickly | {Hurry up} and get undressed. | apurarse | P153
+@PV A–Z · J
+join in | - | to take part in an activity with other people | He didn't want to {join in} our conversation about cars. | sumarse, participar |
+@PV A–Z · L
+lie down | - | to put your body in a flat position, e.g. on a bed, in order to rest | Please {lie down} on the couch. I'm going to examine you. | acostarse | V152
+log on;log on to;log into | - | to connect to a computer system or a website, usually with a password | I took out my phone and {logged on} to Google. | conectarse, iniciar sesión |
+look after | I | to take care of somebody or something | Florence Nightingale {looked after} the people who weren't well. | cuidar |
+look back | - | to think about something that happened in the past | She never {looked back}. | mirar atrás, recordar |
+look for | I | to try to find somebody or something | We need to start {looking for} hotels. | buscar |
+look forward to | I | to feel happy and excited about something that is going to happen (+ -ing) | I'm really {looking forward to} seeing you. | esperar con ganas | GB
+look out for;look out | I | to watch carefully for something; to be careful | {Look out for} celebrity accounts. | estar atento a, tener cuidado con |
+look through | I | to read or examine something quickly | They {look through} all the clues, police reports and online tips. | revisar, mirar por arriba |
+look up | S | to search for information in a book or online | Some people use the internet to {look up} information about their health. | buscar (información, una palabra) |
+look up to | I | to admire and respect somebody | I {look up to} him in some ways. | admirar a alguien |
+@PV A–Z · M
+make up | S | to invent a story or an excuse that is not true | 21% admitted that they {made} the answers {up}. | inventar · be made up of = estar formado por |
+move away | - | to go and live in a different, distant place | We were best friends, but then we both ended up {moving away}. | mudarse lejos |
+move in | - | to start living in a new home | Before you {move in}, get everyone to write their name on a piece of paper. | mudarse (a un lugar nuevo) |
+move on | - | to start doing or talking about something new | Say 'Sorry, it was my fault', and {move on}. | pasar a otra cosa, seguir adelante |
+move out;move out of | - | to leave the place where you live | Town planners wanted to encourage people to {move out} of London. | mudarse (irse de un lugar) |
+@PV A–Z · P
+pass out | - | to become unconscious for a short time; to faint | After two hours queuing in the sun, I {passed out}. | desmayarse | V152
+pay back | S | to return money that you borrowed | When are you going to {pay} me {back} the £50 that I lent you? | devolver (plata) |
+pick up | S | to collect something from a place | When I {picked up} my luggage at baggage reclaim, I bumped into an old friend. | recoger, retirar · aprender (de oído) | V154
+point out | S | to tell somebody about a fact that they did not know or had not noticed | He {pointed out} that zebras usually have a black nose. | señalar, hacer notar |
+pull up | - | (of a vehicle or its driver) to stop | We watched Bear {pull up} on his boat to come and collect us. | detenerse, arrimar (un vehículo) |
+put down to | S | to think that something is caused by something else | A failure by a queen would be {put down to} her gender. | atribuir a |
+put off | S | to make somebody not want to do something; to delay something | Vocabulary that's too complicated {puts} people {off}. | desalentar, espantar · postergar |
+put on | S | to dress yourself in clothes; to spread cream on your skin; to start music | {Put on} antiseptic cream. | ponerse (ropa) · poner (crema, música) |
+put up | S | to publish something on the internet or on a wall; to build something | Once something has been {put up} on the internet, it's difficult to remove. | publicar, subir · levantar |
+@PV A–Z · R
+run away;run away from | - | to leave a place or a person suddenly or secretly; to escape | She's {running away} from someone she dislikes. | escaparse, huir |
+run out of;run out | I | to use all of something so that there is none left | I think we're {running out of} time. | quedarse sin, agotarse | GB
+@PV A–Z · S
+set off | - | to start a journey; (~ a bomb) to make it explode | The four men {set off} from the town of Apolo. | salir, partir (de viaje) · set off a bomb = detonar |
+set up | S | to start a business or an organization | I'm hoping to {set up} my own company if I can get a bank loan. | fundar, montar (un negocio) | V162
+show around | S | to guide somebody through a place that they have not visited before | Do you think you'll be able to {show} me {around}? | mostrarle un lugar a alguien |
+sit down | - | to lower your body onto a chair from a standing position | I need to {sit down}. | sentarse |
+slow down | S | to go, or make something go, less fast | This will {slow down} the car. | desacelerar, frenar |
+stand for | I | (of letters) to be a short form of a word or name | GAP {stands for} Genuine American Product. | significar (una sigla) |
+stand in for | I | to do somebody's job for a short time because they are not available | They had to ask ex-president Eisenhower to {stand in for} him. | reemplazar a alguien |
+stand up | - | to get onto your feet from sitting or lying | Then I {stood up} silently. | pararse, ponerse de pie |
+stay in | - | to remain at home in the evening and not go out | Would you rather {stay in} or go out tonight? | quedarse en casa |
+stay out | - | to remain away from home, especially late at night | My parents don't mind if I {stay out} late. | quedarse afuera (hasta tarde) |
+stay over | - | to sleep at somebody's house for a night | If they are going to {stay over} often, then maybe they should contribute to the rent. | quedarse a dormir |
+stay up | - | to not go to bed until late | I would {stay up} all night revising. | quedarse despierto |
+sum up | S | to give the main points of something briefly | Survival can be {summed up} in three words — never give up. | resumir |
+switch off;switch on | S | to make a machine, light, etc. stop working by pressing a button (the opposite is ~ on) | Why do passengers have to {switch off} electronic devices? | apagar / prender (switch off / on) |
+@PV A–Z · T
+take after | I | to look or behave like an older member of your family | I {take after} my dad — we're both sports-mad. | parecerse a (un familiar) | TK
+take against | I | to start to dislike somebody, often without a good reason | I don't know why Mum has suddenly {taken against} the neighbours. | agarrarle bronca a alguien | TK
+take away | S | to remove something or somebody from a place | Someone {took} her {away} in a pushchair. | llevarse |
+take back | S | to return something to the place or person it came from | When Mathilde {took} the necklace {back} to Madame Forestier, she told her the truth. | devolver, llevar de vuelta |
+take off | S | to remove a piece of clothing | {Take} your jacket {off} — it's hot in here. | sacarse (ropa) | TK
+take off | - | (of a plane) to leave the ground and start flying | The plane {took off} late because of the bad weather. | despegar (un avión) | TK V154
+take out | S | to go with somebody to a restaurant, the cinema, etc., and usually pay for them | Jonas is {taking} me {out} for dinner tonight. | invitar a salir · contratar (un seguro) | TK
+take over | S | (of a company) to gain control of another company, usually by buying it | When BMW {took over} Mini, the smaller company became part of the larger organization. | adquirir, absorber (una empresa) | V162
+take to | I | to start to like somebody or something | My boyfriend's little sister has really {taken to} me. | encariñarse con, caerle bien a alguien | TK
+take up | S | to start doing a sport or a hobby | I'd love to {take up} snowboarding — it sounds really exciting. | empezar (un deporte o hobby) | TK
+throw away | S | to get rid of something that you do not want, for example by putting it in the bin | You'd sharpen it, not {throw} it {away} and buy another. | tirar (a la basura) |
+throw out | S | to force somebody to leave a place | He {threw} us {out} of the boat and told us to swim to the island. | echar |
+throw up | - | (informal) to vomit; to be sick | I had to run to the bathroom to {throw up}. | vomitar | V152
+try on | S | to put on clothes to see if they fit and look good | Would you like to {try} the dress {on}? | probarse (ropa) | GB
+turn back | - | to return the way you came instead of continuing | We had to {turn back} because of the bad weather. | volverse, dar la vuelta |
+turn down | S | to reduce the volume, heat, etc.; to refuse an offer | My neighbour refused to {turn down} the music. | bajar (el volumen) · rechazar | GB
+turn into | I | to change and become something different | Don't let a difference of opinion {turn into} a heated argument. | convertirse en |
+turn off;turn on | S | to stop a machine, light, etc. from working (the opposite is ~ on) | Please {turn off} all personal electronic devices. | apagar / prender (turn off / on) |
+turn out | - | to happen in a particular way; to be discovered to be true | It {turned out} that the ads were retouched. | resultar (que) |
+turn over | - | to move your body so that you are facing the other way, e.g. in bed | This is why we {turn over} at night. | darse vuelta (en la cama) |
+turn up | -S | to arrive or appear; to increase the volume, heat, etc. | We waited until the ambulance {turned up}. | aparecer, llegar · subir (volumen, calefacción) |
+@PV A–Z · W
+wake up | S | to stop sleeping, or to make somebody stop sleeping | What would you do if you {woke up} in the middle of the night? | despertarse / despertar a alguien |
+warm up | S | to become, or make something become, hotter | The house will {warm up} quickly. | calentar(se) |
+wear out | S | to use something so much that it becomes damaged and useless | I walk so much that I {wear out} a pair of shoes every year. | gastar, desgastar · worn-out = gastado |
+wipe out | - | (informal) to fall, especially when doing a sport such as surfing or skiing | He tried to stand on the board but {wiped out} immediately. | caerse (haciendo surf o ski) |
+work out | S | to find the answer to something; to calculate; to do exercise | If you still can't {work out} what the word means, ignore it and carry on reading. | deducir, entender · calcular · hacer ejercicio | GB
+write down | S | to put something on paper so that you remember it | {Write down} the four questions they ask. | anotar |
+
+# Los que enseña el libro: entradas que no son una fila aparte del A–Z
+@PV 4B · Phrasal verbs with take
+take out | S | to remove something from a place and carry it outside | Please {take} the rubbish {out}. It's beginning to smell. | sacar (afuera) | AZ:T
+@PV 154 · Air travel
+pick up | S | to go somewhere, usually by car, to collect somebody | Luckily, a friend {picked} me {up} at the airport. | pasar a buscar a alguien | V154 AZ:P
+@PV 162 · Business
+go out of business | - | (of a company) to stop trading because it has no money left | If sales don't improve, we'll {go out of business}. | quebrar, cerrar | V162
+@PV 4B · Expressions with take
+take care of | x | to look after somebody or something | My neighbour {takes care of} my son while I'm at work. | cuidar |
+take advantage of | x | to make good use of a chance or a situation | You should {take advantage of} that job offer. | aprovechar |
+take place | x | to happen, especially as planned | The concert will {take place} on 6th March. | tener lugar, realizarse |
+take your time | x | to do something slowly, without hurrying | You don't need to hurry. {Take your time}. | tomarse tu tiempo |
+take into account | x | to consider something when making a decision or judging something | Coursework is {taken into account}, as well as exam results. | tener en cuenta |
+take no notice of | x | to ignore somebody or something; to pay no attention to them | {Take no notice of} my brother. | no hacer caso a |
+take pity on | x | to feel sorry for somebody or something and help them | The dog looked so hungry that I {took pity on} it. | apiadarse de |
+take risks | x | to do things that could be dangerous or have a bad result | I love {taking risks}; I love the adrenaline rush. | arriesgarse |
+take part in | x | to join an activity or event together with other people | More and more people are {taking part in} extreme sports. | participar en |
